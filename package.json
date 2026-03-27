@@ -19,7 +19,8 @@
     "test:auth:api": "tsx scripts/test-auth-flow-api.ts",
     "test:smtp": "tsx scripts/test-smtp.ts",
     "test:register": "tsx scripts/test-registration.ts",
-    "test:admin-user-message": "tsx scripts/test-admin-user-message-flow.ts"
+    "test:admin-user-message": "tsx scripts/test-admin-user-message-flow.ts",
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@aws-sdk/client-ses": "^3.654.0",
