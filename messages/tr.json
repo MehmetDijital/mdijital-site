@@ -1,0 +1,1115 @@
+{
+  "common": {
+    "brand": "M Dijital",
+    "language": "Dil",
+    "login": "Giriş",
+    "logout": "Çıkış",
+    "register": "Erişim Talebi",
+    "dashboard": "Panel",
+    "admin": "Admin",
+    "close": "Kapat",
+    "submit": "Gönder",
+    "loading": "Yükleniyor"
+  },
+  "home": {
+    "mainStatement": "Gürültü Üretmeyiz.\nMimari Kurarız.",
+    "subtitle": "Akıllı Sistemler. İnsan Merkezli Gelecek.",
+    "scrollHint": "Aşağı kaydırın"
+  },
+  "dunya": {
+    "title": "GÖK",
+    "subtitle": "Nerede duruyoruz?",
+    "cards": [
+      {
+        "id": "speed-vs-structure",
+        "statement": "Dijital çağ hız ister diyorlar.",
+        "response": "Biz yapı ister diyoruz."
+      },
+      {
+        "id": "noise-vs-architecture",
+        "statement": "Gürültü üretmeyiz.",
+        "response": "Mimari kurarız."
+      },
+      {
+        "id": "smart-systems",
+        "statement": "Akıllı sistemler kuruyoruz.",
+        "response": "İnsan merkezli gelecek inşa ediyoruz."
+      },
+      {
+        "id": "technology-decision",
+        "statement": "Teknoloji bir araçtır.",
+        "response": "Karar insanındır."
+      },
+      {
+        "id": "data-evidence",
+        "statement": "Veri konuşur.",
+        "response": "Kanıt yönlendirir."
+      },
+      {
+        "id": "future-building",
+        "statement": "Gelecek inşa edilir.",
+        "response": "Bugünden başlar."
+      }
+    ]
+  },
+  "mimari": {
+    "title": "Mimari",
+    "items": [
+      {
+        "title": "İnsan + Sistem Dengesi",
+        "description": "Teknoloji insanı değil, insan teknolojiyi yönetir."
+      },
+      {
+        "title": "Yapay zekâ bir araçtır, akıl değil",
+        "description": "AI hız verir; insan karar verir."
+      },
+      {
+        "title": "Teknoloji bir karar meselesidir",
+        "description": "Ne yapılacağından çok ne zaman yapılacağını belirlemek."
+      }
+    ]
+  },
+  "alanlar": {
+    "title": "Alanlar",
+    "identityLabel": "Kimlik",
+    "principleLabel": "Prensip",
+    "items": [
+      {
+        "id": "oracle",
+        "title": "KÂHİN",
+        "subtitle": "Yapay Zekâ & Strateji",
+        "slogan": "Görünmeyeni Okur. Geleceği Konuşur.",
+        "identity": "ORACLE, M Dijital'in öngörü ve karar mimarisidir. Veri, yapay zekâ ve stratejik aklı; sezgiyle değil kanıtla, hızla değil doğrulukla birleştirir.",
+        "principle": "ORACLE konuştuğunda bağırmaz; isabet eder."
+      },
+      {
+        "id": "shapeshifter",
+        "title": "TULPAR",
+        "subtitle": "Tasarım Mimarlığı",
+        "slogan": "Biçim Değiştir. Anlam Kur.",
+        "identity": "M Dijital'in tasarım evrenine açılan bir kapıdır. İçeri giren her marka, kurum ya da fikir; kalıplarından arınır, bağlamını okur ve kendi hakikatine uygun yeni bir biçim kazanır.",
+        "principle": "Tasarım burada bir süs değil; geçiş, dönüşüm ve anlam inşasıdır."
+      },
+      {
+        "id": "guardian",
+        "title": "MİMAR",
+        "subtitle": "Dijital Yönetişim & Kamu Teknolojileri",
+        "slogan": "Kökten Güç. Geleceğe Nizam.",
+        "identity": "M Dijital'in yönetişim aklıdır. Geçmişin büyük yönetim mimarlarının ilke gücünü alır; ancak onları tarihsel bir figür olarak değil, evrensel yönetim prensipleri olarak yeniden yorumlar.",
+        "principle": "Bu karakter siyasetin dışında durur. Amacı iktidar kurmak değil; sistem kurmak, korumak ve geleceğe taşımaktır."
+      },
+      {
+        "id": "identity",
+        "title": "Dijital Kimlik",
+        "subtitle": "Kurumsal Mimari",
+        "slogan": "Kurumu Tanımlayan Dijital Akıl.",
+        "identity": "Kurumların dijital dünyadaki varlığını yalnızca görünür değil; anlamlı, tutarlı ve sürdürülebilir hale getiren kimlik ve yapı sistemleri tasarlanır.",
+        "principle": "Dijital kimlik, kurumun özünü yansıtan ve geleceğe taşıyan bir mimaridir."
+      },
+      {
+        "id": "marketing",
+        "title": "Anlatı & Veri Mimarisi",
+        "subtitle": "Veri Temelli İletişim",
+        "slogan": "Veriden Anlama, Anlamdan Etkiye.",
+        "identity": "Pazarlama ve iletişim süreçleri; sezgiye değil veriye, gürültüye değil stratejik etkiye dayanacak şekilde yapılandırılır.",
+        "principle": "Her karar veri ile desteklenir; her etki ölçülebilir ve sürdürülebilir olmalıdır."
+      },
+      {
+        "id": "metaverse",
+        "title": "Metaverse & NFT",
+        "subtitle": "Yeni Nesil Dijital Ekonomiler",
+        "slogan": "Geleceğin Ekonomisini Bugünden Tasarlamak.",
+        "identity": "Metaverse, NFT ve dijital varlık ekosistemleri; spekülasyon değil, uzun vadeli değer ve sistem mantığıyla ele alınır.",
+        "principle": "Geleceğin ekonomisi bugünden kurulur; spekülasyon değil, mimari inşa edilir."
+      },
+      {
+        "id": "gameDevelopment",
+        "title": "Oyun Geliştirme",
+        "subtitle": "Etkileşimli Deneyimler & Eğlence",
+        "slogan": "Oyna. Kur. Bağlan.",
+        "identity": "M Dijital oyun geliştirme pratiği; mobil, web ve masaüstünde etkileşimli deneyimler sunar. Anlatı tasarımı, gerçek zamanlı sistemler ve ölçeklenebilir backend'leri bir araya getirerek etkileyici oyunlar ve oyunlaştırılmış uygulamalar inşa ediyoruz.",
+        "principle": "İyi oyunlar mimaridir: net kurallar, kalıcı bağlılık ve ölçülebilir eğlence."
+      }
+    ]
+  },
+  "temas": {
+    "title": "NOXARA",
+    "subtitle": "Bize yazmak için değil, temas etmek için buradasın.",
+    "common": {
+      "loading": "Yükleniyor"
+    },
+    "form": {
+      "title": "Yeni Proje Talebi",
+      "subtitle": "Projenizi detaylandırın, birlikte inşa edelim.",
+      "name": "İsim",
+      "email": "E-posta (opsiyonel, yanıt için)",
+      "projectIdea": "Ne inşa etmek istiyorsun?",
+      "projectIdeaInfo": "İnşa etmek istediğin proje, sistem veya mimari hakkında kısaca bahset.",
+      "productRange": "Ürün Yelpazesi",
+      "productRangeInfo": "Geliştirmek istediğin ürün veya hizmet yelpazesi nedir?",
+      "timeHorizon": "Zaman ufkun?",
+      "timeHorizonInfo": "Projen için düşündüğün zaman çerçevesi (kısa, orta, uzun vadeli).",
+      "budgetRange": "Bütçe Aralığı",
+      "budgetRangeInfo": "Projen için düşündüğün bütçe aralığı nedir?",
+      "thresholdQuestion": "Eşik sorusu",
+      "thresholdQuestionInfo": "Bu temas için seni harekete geçiren, kiler kapısını açmanı sağlayan şey nedir?",
+      "companyName": "Şirket Adı",
+      "companyNameInfo": "Şirketiniz varsa adını girin (opsiyonel)",
+      "companyIndustry": "Sektör",
+      "companyIndustryInfo": "Şirketinizin faaliyet gösterdiği sektör (opsiyonel)",
+      "companySector": "Sektör Detayı",
+      "companySectorInfo": "Daha spesifik sektör bilgisi (opsiyonel)",
+      "companySize": "Şirket Büyüklüğü",
+      "companySizeInfo": "Çalışan sayısı veya şirket büyüklüğü (opsiyonel)",
+      "companyWebsite": "Web Sitesi",
+      "companyWebsiteInfo": "Şirket web sitesi URL'i (opsiyonel)",
+      "submit": "Kiler Kapısını Aç",
+      "success": "Temas alındı. Uygun zamanda karşılık bulur.",
+      "requestSubmitted": "Talep gönderildi. Panele yönlendiriliyorsunuz...",
+      "calendlyNote": "Talebiniz alındıktan sonra size bir toplantı linki gönderilecektir.",
+      "companySectionTitle": "Şirket Bilgileri (Opsiyonel)",
+      "createMeeting": "Toplantı Oluştur",
+      "submitError": "Talep gönderilemedi",
+      "errorOccurred": "Bir hata oluştu",
+      "placeholderProductRange": "Örn: Web uygulaması, mobil uygulama, AI çözümü, e-ticaret platformu...",
+      "placeholderTimeHorizon": "Örn: 3 ay, 6 ay, 1 yıl",
+      "placeholderBudgetRange": "Örn: 10K-50K, 50K-100K, 100K+",
+      "placeholderCompanyIndustry": "Örn: Teknoloji, Finans, Eğitim, Sağlık...",
+      "placeholderCompanySector": "Örn: SaaS, FinTech, EdTech...",
+      "placeholderCompanySize": "Örn: 1-10, 11-50, 51-200, 200+"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Eşik",
+      "email": "Kimlik",
+      "password": "Yetki Anahtarı",
+      "submit": "Yetkilendir",
+      "forgotPassword": "Şifremi Unuttum",
+      "invalidCredentials": "Geçersiz e-posta veya şifre",
+      "emailNotVerified": "E-posta adresiniz doğrulanmamış. Lütfen e-postanızı kontrol edin.",
+      "errorOccurred": "Bir hata oluştu",
+      "noAccount": "Hesabınız yok mu?",
+      "rememberMe": "Beni Hatırla",
+      "showPassword": "Şifreyi Göster",
+      "hidePassword": "Şifreyi Gizle"
+    },
+    "admin": {
+      "login": {
+        "title": "Admin Girişi",
+        "subtitle": "Yalnızca yetkili personel",
+        "email": "E-posta",
+        "password": "Şifre",
+        "submit": "Giriş Yap",
+        "invalidCredentials": "Geçersiz e-posta veya şifre",
+        "notAdmin": "Bu hesap admin yetkisine sahip değil",
+        "tooManyAttempts": "Çok fazla deneme. Lütfen daha sonra tekrar deneyin.",
+        "onlyViaSubdomain": "Admin girişi yalnızca admin.mdijital.io adresinden yapılabilir",
+        "errorOccurred": "Bir hata oluştu",
+        "loading": "Giriş yapılıyor...",
+        "securityNote": "Bu sayfa sadece yetkili admin kullanıcıları içindir. Tüm giriş denemeleri loglanmaktadır."
+      }
+    },
+    "register": {
+      "title": "Erişim İste",
+      "name": "İsim",
+      "email": "E-posta",
+      "password": "Şifre",
+      "confirmPassword": "Şifre Tekrar",
+      "submit": "Talebi Gönder",
+      "passwordHint": "En az 8 karakter, bir büyük harf, bir küçük harf ve bir rakam içermelidir",
+      "passwordMismatch": "Şifreler eşleşmiyor",
+      "registrationFailed": "Kayıt başarısız oldu",
+      "errorOccurred": "Bir hata oluştu",
+      "alreadyHaveAccount": "Erişimin var mı? Devam et",
+      "userExists": "Bu e-posta adresi ile zaten bir hesap mevcut.",
+      "pleaseVerifyEmail": "Lütfen e-posta doğrulama sayfasına yönlendiriliyorsunuz...",
+      "showPassword": "Şifreyi Göster",
+      "hidePassword": "Şifreyi Gizle"
+    },
+    "verifyEmail": {
+      "title": "E-posta Doğrulama",
+      "subtitle": "E-postanıza gönderilen 6 haneli kodu girin",
+      "email": "E-posta",
+      "code": "Doğrulama Kodu",
+      "verify": "Doğrula",
+      "verifying": "Doğrulanıyor...",
+      "verifySuccess": "E-posta başarıyla doğrulandı! Giriş sayfasına yönlendiriliyorsunuz...",
+      "verifyError": "Doğrulama başarısız oldu",
+      "resendCode": "Kodu Yeniden Gönder",
+      "resendSuccess": "Doğrulama kodu yeniden gönderildi",
+      "resendError": "Kod yeniden gönderilemedi",
+      "resendCountdown": "{{seconds}} saniye sonra tekrar deneyin",
+      "errorOccurred": "Bir hata oluştu"
+    },
+    "forgotPassword": {
+      "title": "Şifremi Unuttum",
+      "subtitle": "E-posta adresinize şifre sıfırlama bağlantısı göndereceğiz",
+      "email": "E-posta",
+      "submit": "Gönder",
+      "submitted": "Gönderildi",
+      "successMessage": "Şifre sıfırlama bağlantısı e-posta adresinize gönderildi",
+      "tooManyRequests": "Çok fazla istek. Lütfen daha sonra tekrar deneyin.",
+      "errorOccurred": "Bir hata oluştu",
+      "backToLogin": "Giriş sayfasına dön"
+    },
+    "resetPassword": {
+      "title": "Şifre Sıfırlama",
+      "subtitle": "Yeni şifrenizi belirleyin",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla",
+      "passwordHint": "En az 8 karakter, bir büyük harf, bir küçük harf ve bir rakam içermelidir",
+      "submit": "Şifreyi Sıfırla",
+      "resetting": "Sıfırlanıyor...",
+      "resetSuccess": "Şifre başarıyla sıfırlandı! Giriş sayfasına yönlendiriliyorsunuz...",
+      "resetError": "Şifre sıfırlama başarısız oldu",
+      "passwordsDontMatch": "Şifreler eşleşmiyor",
+      "weakPassword": "Şifre en az bir büyük harf, bir küçük harf ve bir rakam içermelidir",
+      "noToken": "Geçersiz veya eksik token",
+      "invalidToken": "Geçersiz veya süresi dolmuş token",
+      "invalidTokenTitle": "Geçersiz Bağlantı",
+      "invalidTokenMessage": "Bu şifre sıfırlama bağlantısı geçersiz veya süresi dolmuş.",
+      "requestNewLink": "Yeni Bağlantı İste",
+      "validating": "Token doğrulanıyor...",
+      "errorOccurred": "Bir hata oluştu"
+    }
+  },
+  "dashboard": {
+    "title": "Odak",
+    "profile": "Profil",
+    "projectRequests": "Proje Talepleri",
+    "newRequest": "Yeni Talep",
+    "noRequestsYet": "Henüz proje talebi yok.",
+    "totalRequests": "Toplam Talep",
+    "inProgress": "İşlemde",
+    "completed": "Tamamlandı",
+    "noName": "İsim yok",
+    "profileLabel": "Profil",
+    "requestDetailTitle": "Proje Talebi",
+    "updated": "Güncellendi",
+    "projectIdea": "Proje Fikri",
+    "timeHorizon": "Zaman Ufku",
+    "statusTimeline": "Durum Zaman Çizelgesi",
+    "adminReply": "Admin Yanıtı",
+    "pending": "Beklemede",
+    "status": {
+      "received": "Alındı",
+      "inProgress": "İşlemde",
+      "inprogress": "İşlemde",
+      "completed": "Tamamlandı"
+    },
+    "profilePage": {
+      "title": "Profil Ayarları",
+      "profileInfo": "Profil Bilgileri",
+      "changePassword": "Şifre Değiştir",
+      "name": "İsim",
+      "email": "E-posta",
+      "emailVerified": "E-posta doğrulandı",
+      "emailNotVerified": "E-posta doğrulanmadı",
+      "update": "Profili Güncelle",
+      "currentPassword": "Mevcut Şifre",
+      "newPassword": "Yeni Şifre",
+      "confirmPassword": "Şifreyi Onayla",
+      "passwordHint": "En az 8 karakter, bir büyük harf, bir küçük harf ve bir rakam içermelidir",
+      "passwordsDontMatch": "Şifreler eşleşmiyor",
+      "noChanges": "Kaydedilecek değişiklik yok",
+      "updateError": "Profil güncellenemedi",
+      "updateSuccess": "Profil başarıyla güncellendi",
+      "changePasswordError": "Şifre değiştirilemedi",
+      "changePasswordSuccess": "Şifre başarıyla değiştirildi",
+      "errorOccurred": "Bir hata oluştu"
+    },
+    "newsletter": {
+      "title": "Haber Bülteni Yönetimi",
+      "subscription": "Haber Bülteni Aboneliği",
+      "subscribed": "Abone",
+      "notSubscribed": "Abone Değil",
+      "subscribe": "Abone Ol",
+      "unsubscribe": "Abonelikten Çık",
+      "description": "En son haberlerimiz, güncellemelerimiz ve özel içeriklerimizden haberdar olun.",
+      "alreadyUnsubscribed": "Zaten abonelikten çıkılmış",
+      "updateError": "Abonelik güncellenemedi",
+      "subscribedSuccess": "Başarıyla abone olundu",
+      "unsubscribedSuccess": "Abonelikten çıkıldı",
+      "errorOccurred": "Bir hata oluştu"
+    }
+  },
+  "admin": {
+    "title": "Admin Paneli",
+    "more": "Daha Fazla",
+    "users": "Kullanıcılar",
+    "requests": "Talepler",
+    "settings": "Ayarlar",
+    "stats": {
+      "totalUsers": "Toplam Kullanıcı",
+      "totalRequests": "Toplam Talep",
+      "inProgress": "İşlemde",
+      "completed": "Tamamlandı",
+      "newContacts": "Yeni İletişimler",
+      "totalContacts": "Toplam İletişim",
+      "publishedPosts": "Yayınlanan Yazılar",
+      "totalBlogPosts": "Toplam Blog Yazısı",
+      "newsletter": "Haber Bülteni",
+      "subscribers": "Abone"
+    },
+    "dashboard": {
+      "recentRequests": "Son Talepler",
+      "recentContacts": "Son İletişimler",
+      "viewAll": "Tümünü Gör",
+      "noRequestsYet": "Henüz talep yok",
+      "noContactsYet": "Henüz iletişim yok",
+      "totalLabel": "Toplam",
+      "anonymous": "Anonim",
+      "statusReceived": "Alındı",
+      "statusInProgress": "İşlemde",
+      "statusCompleted": "Tamamlandı",
+      "statusNew": "Yeni",
+      "statusReplied": "Yanıtlandı",
+      "statusArchived": "Arşivlendi"
+    },
+    "newsletter": {
+      "title": "Haber Bülteni Yönetimi",
+      "email": "E-posta",
+      "status": "Durum",
+      "locale": "Dil",
+      "subscribedAt": "Abone Olma Tarihi",
+      "actions": "İşlemler",
+      "subscribed": "Abone",
+      "unsubscribed": "Abone Değil",
+      "all": "Tümü",
+      "searchPlaceholder": "E-posta ile ara...",
+      "noSubscriptions": "Abonelik bulunamadı",
+      "showing": "Gösteriliyor",
+      "of": "/",
+      "previous": "Önceki",
+      "next": "Sonraki"
+    },
+    "contacts": {
+      "title": "İletişim Talepleri",
+      "noContacts": "İletişim talebi bulunamadı",
+      "all": "Tümü",
+      "anonymous": "Anonim",
+      "noName": "İsim yok",
+      "status": {
+        "new": "Yeni",
+        "inProgress": "İşlemde",
+        "replied": "Yanıtlandı",
+        "archived": "Arşivlendi"
+      },
+      "details": {
+        "title": "İletişim Detayları",
+        "contactInfo": "İletişim Bilgileri",
+        "dates": "Tarihler",
+        "projectIdea": "Proje Fikri",
+        "timeHorizon": "Zaman Ufku",
+        "thresholdQuestion": "Eşik Sorusu",
+        "reply": "İletişime Yanıt Ver",
+        "replySubject": "Konu",
+        "replyMessage": "Mesaj",
+        "sendReply": "Yanıt Gönder",
+        "sending": "Gönderiliyor...",
+        "status": "Durum",
+        "adminNotes": "Admin Notları",
+        "saveChanges": "Değişiklikleri Kaydet",
+        "saving": "Kaydediliyor...",
+        "replied": "Yanıtlandı",
+        "placeholderSubject": "E-posta konusu...",
+        "placeholderMessage": "Yanıt mesajınız...",
+        "placeholderAdminNotes": "Bu iletişim hakkında not ekleyin...",
+        "replySent": "Yanıt iletişime gönderildi.",
+        "replyError": "Yanıt gönderilemedi.",
+        "saved": "Değişiklikler kaydedildi.",
+        "saveError": "Kaydedilemedi."
+      }
+    },
+    "requests": {
+      "title": "Talepler",
+      "details": {
+        "title": "Talep Detayları",
+        "customer": "Müşteri",
+        "dates": "Tarihler",
+        "created": "Oluşturuldu",
+        "updated": "Güncellendi",
+        "projectIdea": "Proje Fikri",
+        "timeHorizon": "Zaman Ufku",
+        "status": "Durum",
+        "adminNotes": "Admin Notları",
+        "saveChanges": "Değişiklikleri Kaydet",
+        "saving": "Kaydediliyor...",
+        "placeholderAdminNotes": "Bu talep hakkında not ekleyin...",
+        "statusReceived": "Alındı",
+        "statusInProgress": "İşlemde",
+        "statusCompleted": "Tamamlandı",
+        "noName": "İsim yok"
+      }
+    },
+    "blog": {
+      "title": "Blog Yönetimi"
+    },
+    "applications": {
+      "title": "İş Başvuruları",
+      "noApplications": "Henüz başvuru yok.",
+      "all": "Tümü",
+      "status": {
+        "new": "Yeni",
+        "inProgress": "İnceleniyor",
+        "hired": "İşe Alındı",
+        "rejected": "Reddedildi"
+      },
+      "details": {
+        "title": "Başvuru Detayı",
+        "applicant": "Başvuran",
+        "job": "Pozisyon",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "coverLetter": "Ön yazı",
+        "cv": "CV",
+        "downloadCv": "CV indir",
+        "status": "Durum",
+        "statusNew": "Yeni",
+        "statusInProgress": "İnceleniyor",
+        "statusHired": "İşe Alındı",
+        "statusRejected": "Reddedildi",
+        "adminNotes": "Admin notları",
+        "saveChanges": "Kaydet",
+        "saving": "Kaydediliyor...",
+        "dates": "Tarihler",
+        "createdAt": "Başvuru tarihi",
+        "updatedAt": "Güncellenme",
+        "placeholderAdminNotes": "İç notlar..."
+      }
+    },
+    "careers": {
+      "title": "İş İlanları",
+      "newJob": "Yeni İlan",
+      "titleTR": "Başlık (TR)",
+      "titleEN": "Başlık (EN)",
+      "descriptionTR": "Açıklama (TR)",
+      "descriptionEN": "Açıklama (EN)",
+      "location": "Konum",
+      "jobType": "Tür",
+      "published": "Yayında",
+      "actions": "İşlemler",
+      "edit": "Düzenle",
+      "delete": "Sil",
+      "noJobs": "Henüz iş ilanı yok.",
+      "createSuccess": "İlan oluşturuldu.",
+      "updateSuccess": "İlan güncellendi.",
+      "deleteSuccess": "İlan silindi.",
+      "saveChanges": "Değişiklikleri Kaydet",
+      "cancel": "İptal",
+      "draft": "Taslak",
+      "FULL_TIME": "Tam zamanlı",
+      "PART_TIME": "Yarı zamanlı",
+      "CONTRACT": "Sözleşmeli",
+      "REMOTE": "Uzaktan"
+    },
+    "email": {
+      "title": "Email Gönder",
+      "modeSingle": "Tek alıcı",
+      "modeAll": "Tüm aboneler",
+      "modeSelected": "Alıcı seç",
+      "to": "Alıcı",
+      "subject": "Konu",
+      "message": "Mesaj",
+      "send": "Email Gönder",
+      "sending": "Gönderiliyor...",
+      "placeholderTo": "alici@ornek.com",
+      "placeholderSubject": "E-posta konusu...",
+      "placeholderMessage": "Mesajınız...",
+      "errorSendFailed": "E-posta gönderilemedi",
+      "errorOccurred": "E-posta gönderilirken bir hata oluştu",
+      "successSingle": "E-posta başarıyla gönderildi!",
+      "successBulk": "{{sent}} e-posta gönderildi. {{failed}} başarısız.",
+      "loadSubscribers": "Aboneleri yükle",
+      "loadingSubscribers": "Yükleniyor...",
+      "noSubscribers": "Abone bulunamadı",
+      "selectRecipients": "Alıcıları seçin",
+      "selectAll": "Tümünü seç",
+      "deselectAll": "Tümünü kaldır",
+      "selectedCount": "{{count}} seçili"
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "emailService": "E-posta Servisi",
+      "fromLabel": "Gönderen",
+      "notSet": "Ayarlanmamış",
+      "environment": "Ortam"
+    }
+  },
+  "footer": {
+    "tagline": "Gürültü üretmeyiz. Mimari kurarız.",
+    "company": {
+      "title": "YAPI",
+      "about": "Hakkımızda",
+      "services": "Hizmetler",
+      "projects": "Projeler",
+      "careers": "Kariyer"
+    },
+    "services": {
+      "title": "Alanlar",
+      "web": "Web Geliştirme",
+      "mobile": "Mobil Uygulamalar",
+      "architecture": "Sistem Mimarisi",
+      "ai": "AI & ML",
+      "gameDevelopment": "Oyun Geliştirme"
+    },
+            "resources": {
+              "title": "Kaynaklar",
+              "blog": "Blog",
+              "support": "Destek",
+              "faq": "SSS"
+            },
+    "contact": {
+      "title": "İletişim",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "address": "Adres",
+      "emailValue": "iletisim@mdijital.io",
+      "phoneValue": "0224-9098196"
+    },
+    "newsletter": {
+      "title": "Haber Bülteni",
+      "subtitle": "Yeniliklerden haberdar olun",
+      "placeholder": "E-posta adresiniz",
+      "subscribe": "Abone Ol",
+      "subscribed": "Abone olundu"
+    },
+    "social": {
+      "title": "Sosyal Medya",
+      "follow": "Bizi takip edin"
+    },
+    "legal": {
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "cookies": "Çerez Politikası"
+    },
+    "copyright": "© 2025 M Dijital. Tüm hakları saklıdır."
+  },
+  "pages": {
+    "about": {
+      "title": "Hakkımızda",
+      "description": "M Dijital hakkında bilgi edinin. Gürültü üretmeyiz. Mimari kurarız.",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "content": {
+        "heading": "Mimari Kuruyoruz",
+        "paragraph1": "M Dijital, dijital çağın hızına değil, yapısına odaklanan bir teknoloji mimarlığıdır. Gürültü üretmeyiz; mimari kurarız. Yapay zeka, yazılım, veri ve ileri dijital sistemler odağında çalışan butik bir teknoloji ve strateji yapısıyız.",
+        "paragraph2": "Kurumlar, markalar ve topluluklar için yalnızca dijital çözümler üretmeyiz; dijital kimlikler, yönetişim modelleri ve sürdürülebilir sistem mimarileri inşa ederiz. Akıllı sistemler kuruyoruz. İnsan merkezli gelecek inşa ediyoruz. Teknoloji bir araçtır; karar insanındır.",
+        "paragraph3": "Veri konuşur. Kanıt yönlendirir. Gelecek inşa edilir ve bugünden başlar. Yapay zeka, blockchain, veri bilimi ve yaratıcı teknolojileri; etik, kültürel bilinç, hukuki üstünlük ve kamusal fayda ilkeleriyle birleştirerek akıllı, şeffaf ve insan merkezli dijital sistemler kuruyoruz.",
+        "vision": {
+          "title": "Vizyonumuz",
+          "content": "Dijital çağda yalnızca uyum sağlayan değil; dönüşümü tasarlayan, yöneten ve standart koyan bir yapı olmak. Ulusal ölçekte dijital devlet, dijital kurum ve dijital toplum modelleri geliştiren; küresel ölçekte referans alınan bir strateji merkezi haline gelmek."
+        },
+        "mission": {
+          "title": "Misyonumuz",
+          "content": "Yapay zeka, blockchain, veri bilimi ve yaratıcı teknolojileri; etik, kültürel bilinç, hukuki üstünlük (jus cogens) ve kamusal fayda ilkeleriyle birleştirerek akıllı, şeffaf ve insan merkezli dijital sistemler kurmak."
+        },
+        "approach": {
+          "title": "Yaklaşımımız",
+          "content": "M Dijital, yüksek hacimli işler yerine seçici, derinlikli ve uzun vadeli projelerle çalışır. Her proje; analiz, tasarım, etik değerlendirme ve sürdürülebilirlik katmanlarından geçerek hayata geçirilir. Dijital çağın yalnızca teknolojik değil; felsefi, sosyolojik ve yönetsel bir dönüşüm olduğuna inanırız."
+        }
+      }
+    },
+    "services": {
+      "title": "Alanlar",
+      "description": "Web geliştirme, mobil uygulamalar, sistem mimarisi, AI/ML, blockchain ve dijital dönüşüm çözümleri.",
+      "web": {
+        "title": "Web Geliştirme",
+        "description": "Modern, ölçeklenebilir ve güvenli web uygulamaları geliştiriyoruz.",
+        "content": "Next.js, React, TypeScript, Node.js ve modern web teknolojileri ile kurumsal düzeyde web uygulamaları geliştiriyoruz. Server-side rendering (SSR), static site generation (SSG), progressive web apps (PWA) ve mikroservis mimarileri ile yüksek performanslı, SEO dostu ve ölçeklenebilir çözümler sunuyoruz.",
+        "features": [
+          "Full-stack web uygulamaları",
+          "E-ticaret platformları",
+          "Kurumsal portal ve dashboard'lar",
+          "API geliştirme ve entegrasyon",
+          "Performans optimizasyonu",
+          "SEO ve içerik yönetimi"
+        ]
+      },
+      "mobile": {
+        "title": "Mobil Uygulamalar",
+        "description": "iOS ve Android için native ve cross-platform mobil uygulamalar.",
+        "content": "React Native, Flutter ve native teknolojiler (Swift, Kotlin) ile iOS ve Android platformları için yüksek performanslı mobil uygulamalar geliştiriyoruz. App Store ve Google Play optimizasyonu, push notification sistemleri, offline-first mimariler ve gerçek zamanlı senkronizasyon çözümleri sunuyoruz.",
+        "features": [
+          "Native iOS ve Android uygulamaları",
+          "Cross-platform çözümler (React Native, Flutter)",
+          "Hybrid uygulamalar",
+          "Mobil API entegrasyonları",
+          "App Store optimizasyonu",
+          "Mobil güvenlik ve test"
+        ]
+      },
+      "architecture": {
+        "title": "Sistem Mimarisi",
+        "description": "Ölçeklenebilir, güvenli ve sürdürülebilir sistem mimarileri tasarlıyoruz.",
+        "content": "Mikroservis mimarileri, cloud-native çözümler (AWS, Azure, GCP), containerization (Docker, Kubernetes), serverless mimariler ve DevOps uygulamaları ile modern sistem mimarileri kuruyoruz. Yüksek kullanılabilirlik, otomatik ölçeklendirme, disaster recovery ve sürekli entegrasyon/dağıtım (CI/CD) çözümleri sunuyoruz.",
+        "features": [
+          "Mikroservis mimarileri",
+          "Cloud migration ve strateji",
+          "Container orchestration (Kubernetes)",
+          "DevOps ve CI/CD pipeline'ları",
+          "Monitoring ve logging sistemleri",
+          "Güvenlik mimarisi ve compliance"
+        ]
+      },
+      "ai": {
+        "title": "AI & Makine Öğrenmesi",
+        "description": "Yapay zeka ve makine öğrenmesi çözümleri ile iş süreçlerinizi dönüştürün.",
+        "content": "Yapay zeka entegrasyonu, makine öğrenmesi modelleri, doğal dil işleme (NLP), bilgisayarlı görü (computer vision), chatbot ve conversational AI, AI destekli otomasyon ve veri analitiği çözümleri geliştiriyoruz. LLM entegrasyonları, fine-tuning, RAG (Retrieval-Augmented Generation) ve özel AI model geliştirme hizmetleri sunuyoruz.",
+        "features": [
+          "AI model geliştirme ve eğitimi",
+          "LLM entegrasyonları (GPT, Claude, vb.)",
+          "Chatbot ve conversational AI",
+          "NLP ve metin analizi",
+          "Computer vision çözümleri",
+          "AI destekli otomasyon"
+        ]
+      },
+      "blockchain": {
+        "title": "Blockchain & Web3",
+        "description": "Blockchain, smart contract ve Web3 çözümleri geliştiriyoruz.",
+        "content": "Ethereum, Polygon, Binance Smart Chain ve diğer blockchain ağları için smart contract geliştirme, DeFi protokolleri, NFT marketplace'leri, token geliştirme, blockchain entegrasyonları ve Web3 uygulamaları geliştiriyoruz. Solidity, Web3.js, Ethers.js ve modern blockchain teknolojileri ile güvenli ve ölçeklenebilir çözümler sunuyoruz.",
+        "features": [
+          "Smart contract geliştirme ve audit",
+          "DeFi protokolleri",
+          "NFT marketplace ve minting",
+          "Token geliştirme (ERC-20, ERC-721, ERC-1155)",
+          "Blockchain entegrasyonları",
+          "Web3 dApp geliştirme"
+        ]
+      },
+      "digitalIdentity": {
+        "title": "Dijital Kimlik & Kurumsal Mimari",
+        "description": "Kurumların dijital dünyadaki varlığını anlamlı, tutarlı ve sürdürülebilir hale getiren kimlik sistemleri.",
+        "content": "Kurumsal dijital kimlik tasarımı, marka mimarisi, görsel kimlik sistemleri, içerik stratejisi ve dijital varlık yönetimi hizmetleri sunuyoruz. Kurumun özünü yansıtan, geleceğe taşıyan ve tutarlı bir dijital kimlik inşa ediyoruz.",
+        "features": [
+          "Dijital kimlik tasarımı",
+          "Marka mimarisi",
+          "Görsel kimlik sistemleri",
+          "İçerik stratejisi",
+          "Dijital varlık yönetimi",
+          "Kurumsal iletişim"
+        ]
+      },
+      "digitalMedia": {
+        "title": "AI Destekli Dijital Medya Yönetimi",
+        "description": "Yüksek disiplinli, düşük gürültülü ve mutlak sonuç odaklı dijital medya yönetimi.",
+        "content": "CYBORG modeli ile klasik sosyal medya yönetimini aşan, yapay zeka destekli içerik üretimi, platform optimizasyonu, performans analizi ve stratejik medya yönetimi hizmetleri sunuyoruz. Görünür olmaktan çok hakim olmayı hedefleyen, kuruma göre biçim değiştiren bir medya mimarlığı.",
+        "features": [
+          "AI destekli içerik üretimi",
+          "Sosyal medya yönetimi ve strateji",
+          "Performans analizi ve optimizasyon",
+          "Influencer ve community yönetimi",
+          "Kriz yönetimi ve reputation management",
+          "Cross-platform içerik stratejisi"
+        ]
+      },
+      "design": {
+        "title": "Tasarım Mimarlığı",
+        "description": "Biçim değiştiren, anlam kuran tasarım çözümleri.",
+        "content": "SHAPESHIFTER (TULPAR) prensibi ile marka, kurum veya fikrin kalıplarından arınması, bağlamını okuması ve kendi hakikatine uygun yeni bir biçim kazanması. Tasarım burada bir süs değil; geçiş, dönüşüm ve anlam inşasıdır.",
+        "features": [
+          "Marka ve kurumsal tasarım",
+          "UI/UX tasarımı",
+          "Motion design ve animasyon",
+          "Görsel kimlik sistemleri",
+          "Dijital ve basılı tasarım",
+          "Tasarım sistemleri ve component kütüphaneleri"
+        ]
+      },
+      "governance": {
+        "title": "Dijital Yönetişim & Kamu Teknolojileri",
+        "description": "Şeffaf, hesap verebilir ve hukuki üstünlük ilkeleriyle dijital yönetişim modelleri.",
+        "content": "GUARDIAN/ARCHITECT (MİMAR) karakteri ile dijital devlet, kamu teknolojileri ve yönetişim modelleri geliştiriyoruz. Sistem kurmak, korumak ve geleceğe taşımak odaklı çözümler sunuyoruz.",
+        "features": [
+          "Dijital devlet çözümleri",
+          "Kamu teknolojileri",
+          "Yönetişim platformları",
+          "Şeffaflık ve hesap verebilirlik sistemleri",
+          "E-devlet entegrasyonları",
+          "Sivil toplum teknolojileri"
+        ]
+      },
+      "marketing": {
+        "title": "Akıllı Pazarlama & Veri Temelli İletişim",
+        "description": "Veriden anlama, anlamdan etkiye. Stratejik pazarlama çözümleri.",
+        "content": "Sezgiye değil veriye, gürültüye değil stratejik etkiye dayanan pazarlama ve iletişim süreçleri. Her karar veri ile desteklenir; her etki ölçülebilir ve sürdürülebilir olmalıdır.",
+        "features": [
+          "Veri temelli pazarlama stratejisi",
+          "Marketing automation",
+          "CRM entegrasyonları",
+          "A/B testing ve optimizasyon",
+          "Lead generation ve nurturing",
+          "ROI analizi ve raporlama"
+        ]
+      },
+      "metaverse": {
+        "title": "Metaverse & NFT",
+        "description": "Geleceğin ekonomisini bugünden tasarlamak. Spekülasyon değil, mimari.",
+        "content": "Metaverse, NFT ve dijital varlık ekosistemleri; spekülasyon değil, uzun vadeli değer ve sistem mantığıyla ele alınır. 3D sanal dünyalar, NFT koleksiyonları, dijital sanat platformları ve metaverse entegrasyonları geliştiriyoruz.",
+        "features": [
+          "Metaverse platform geliştirme",
+          "NFT marketplace ve minting",
+          "3D sanal dünya tasarımı",
+          "Dijital sanat ve collectibles",
+          "Virtual event ve experience tasarımı",
+          "Blockchain entegrasyonları"
+        ]
+      },
+      "gameDevelopment": {
+        "title": "Oyun Geliştirme",
+        "description": "Mobil, web ve masaüstünde etkileşimli deneyimler ve eğlence.",
+        "content": "Güçlü anlatı tasarımı, gerçek zamanlı sistemler ve ölçeklenebilir backend'lerle oyunlar ve oyunlaştırılmış uygulamalar geliştiriyoruz. Casual mobil oyunlardan ciddi oyunlara ve simülasyonlara kadar, net mimari ve ölçülebilir bağlılık üzerine kurulu etkileyici deneyimler sunuyoruz.",
+        "features": [
+          "Mobil ve casual oyunlar",
+          "Web ve tarayıcı oyunları",
+          "Ciddi oyunlar ve simülasyonlar",
+          "Oyun backend ve live ops",
+          "Unity ve Unreal entegrasyonu",
+          "Oyunlaştırma ve bağlılık sistemleri"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projeler",
+      "description": "Gerçekleştirdiğimiz projeler ve başarı hikayeleri.",
+      "intro": "M Dijital olarak, seçici, derinlikli ve uzun vadeli projelerle çalışıyoruz. Her proje; analiz, tasarım, etik değerlendirme ve sürdürülebilirlik katmanlarından geçerek hayata geçirilir.",
+      "content": "Şu ana kadar gerçekleştirdiğimiz projeler arasında web uygulamaları, mobil uygulamalar, sistem mimarileri, AI entegrasyonları, blockchain projeleri ve dijital dönüşüm çözümleri bulunmaktadır. Proje portföyümüzü detaylı bilgilerle burada paylaşıyoruz.",
+      "categories": [
+        "Web Uygulamaları",
+        "Mobil Uygulamalar",
+        "Sistem Mimarileri",
+        "AI & ML Projeleri",
+        "Blockchain & Web3",
+        "Dijital Dönüşüm"
+      ]
+    },
+    "careers": {
+      "title": "Kariyer",
+      "description": "M Dijital ailesine katılın. Mimari kuruyoruz, gelecek inşa ediyoruz.",
+      "intro": "M Dijital, teknoloji ve strateji alanında çalışan, seçici ve derinlikli projelerle çalışan bir ekiptir. Mimari kuruyoruz, gelecek inşa ediyoruz.",
+      "content": "Şu anda aradığımız roller: Full-stack Developer, Mobile Developer, AI/ML Engineer, Blockchain Developer, System Architect, UI/UX Designer, DevOps Engineer ve Product Manager. Açık pozisyonlar için lütfen bizimle iletişime geçin.",
+      "benefitsTitle": "Yan Haklar",
+      "openPositions": "Açık Pozisyonlar",
+      "noOpenings": "Şu an açık pozisyon bulunmuyor. Daha sonra tekrar kontrol edin.",
+      "apply": "Başvur",
+      "location": "Konum",
+      "type": "Tür",
+      "fullTime": "Tam zamanlı",
+      "partTime": "Yarı zamanlı",
+      "contract": "Sözleşmeli",
+      "remote": "Uzaktan",
+      "applyTitle": "{{title}} için Başvur",
+      "applySubtitle": "Bilgilerinizi girin ve CV'nizi yükleyin.",
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon (isteğe bağlı)",
+      "coverLetter": "Ön yazı (isteğe bağlı)",
+      "cvUpload": "CV (PDF veya Word, en fazla 5MB)",
+      "submit": "Başvuruyu gönder",
+      "submitting": "Gönderiliyor...",
+      "successMessage": "Başvurunuz başarıyla alındı.",
+      "backToCareers": "Kariyere dön",
+      "errorRequired": "Bu alan zorunludur",
+      "errorInvalidEmail": "Geçersiz e-posta",
+      "errorCvRequired": "CV dosyası zorunludur",
+      "errorDuplicate": "Bu pozisyon için zaten başvurdunuz.",
+      "benefits": [
+        "Rekabetçi maaş ve yan haklar",
+        "Esnek çalışma saatleri ve remote çalışma imkanı",
+        "Sürekli öğrenme ve gelişim fırsatları",
+        "Modern teknolojilerle çalışma",
+        "Seçici ve derinlikli projeler",
+        "Etik ve sürdürülebilir çalışma kültürü"
+      ]
+    },
+    "support": {
+      "title": "Destek",
+      "description": "Yardıma mı ihtiyacınız var? Bizimle iletişime geçin.",
+      "intro": "M Dijital müşteri desteği ekibi, 7/24 hizmetinizdedir.",
+      "content": "Teknik destek, proje danışmanlığı, acil durum müdahalesi ve genel sorularınız için bizimle iletişime geçebilirsiniz.",
+      "contactTitle": "İletişim Bilgileri",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "emailValue": "iletisim@mdijital.io",
+      "phoneValue": "0224-9098196",
+      "channels": [
+        "E-posta: iletisim@mdijital.io",
+        "Telefon: 0224-9098196"
+      ],
+      "responseTime": "E-posta yanıt süresi: 24 saat içinde, Acil durumlar: 4 saat içinde"
+    },
+    "faq": {
+      "title": "Sık Sorulan Sorular",
+      "description": "Sık sorulan sorular ve cevapları.",
+      "questions": [
+        {
+          "q": "Hangi teknolojileri kullanıyorsunuz?",
+          "a": "Next.js, React, TypeScript, Node.js, Python, Solidity, Web3.js ve modern web, mobil, blockchain ve AI teknolojileri kullanıyoruz. Teknoloji stack'i proje gereksinimlerine göre özelleştiriyoruz."
+        },
+        {
+          "q": "Proje süresi ne kadar?",
+          "a": "Proje kapsamına göre değişmekle birlikte, küçük projeler 1-3 ay, orta ölçekli projeler 3-6 ay, büyük ölçekli projeler 6-12 ay arasında tamamlanır. Agile metodoloji ile iteratif geliştirme yapıyoruz."
+        },
+        {
+          "q": "Fiyatlandırma nasıl yapılıyor?",
+          "a": "Proje kapsamına, karmaşıklığına ve süresine göre özel fiyatlandırma yapıyoruz. Sabit fiyat, saatlik ücret veya hibrit modeller sunuyoruz. Detaylı bilgi için lütfen iletişime geçin."
+        },
+        {
+          "q": "Hangi sektörlerde çalışıyorsunuz?",
+          "a": "Finans, sağlık, e-ticaret, eğitim, kamu sektörü, teknoloji startup'ları ve daha birçok sektörde projeler gerçekleştiriyoruz. Sektör deneyimimiz geniştir."
+        },
+        {
+          "q": "Blockchain ve Web3 projeleri yapıyor musunuz?",
+          "a": "Evet, Ethereum, Polygon, BSC ve diğer blockchain ağları için smart contract geliştirme, DeFi protokolleri, NFT marketplace'leri ve Web3 uygulamaları geliştiriyoruz."
+        },
+        {
+          "q": "AI entegrasyonu yapıyor musunuz?",
+          "a": "Evet, LLM entegrasyonları (GPT, Claude), chatbot geliştirme, NLP, computer vision ve özel AI model geliştirme hizmetleri sunuyoruz."
+        },
+        {
+          "q": "Destek ve bakım hizmeti veriyor musunuz?",
+          "a": "Evet, proje tamamlandıktan sonra sürekli destek, bakım, güncelleme ve optimizasyon hizmetleri sunuyoruz. SLA'lı destek paketlerimiz mevcuttur."
+        },
+        {
+          "q": "Güvenlik ve uyumluluk konularında nasıl çalışıyorsunuz?",
+          "a": "GDPR, KVKK, ISO 27001 ve diğer güvenlik standartlarına uyumlu çalışıyoruz. Güvenlik audit'i, penetration testing ve compliance danışmanlığı hizmetleri sunuyoruz."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "description": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi gizlilik politikası ve kişisel verilerin korunması.",
+      "lastUpdated": "Son Güncelleme: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. Genel Hükümler ve Tanımlar",
+          "content": "Bu Gizlilik Politikası (\"Politika\"), 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") ve ilgili mevzuat hükümleri uyarınca, M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Şirket\", \"Veri Sorumlusu\", \"biz\", \"bizim\") tarafından işletilen mdijital.io web sitesi (\"Site\") ve ilgili dijital hizmetlerimiz (\"Hizmetler\") aracılığıyla toplanan, işlenen, saklanan ve korunan kişisel verilerin işlenmesine ilişkin usul ve esasları düzenlemektedir. Bu Politika, Site'yi ziyaret eden, Hizmetlerimizi kullanan veya bizimle iletişime geçen tüm gerçek kişiler (\"Veri Sahibi\", \"Kullanıcı\", \"siz\", \"sizin\") için geçerlidir. Site'yi kullanarak veya Hizmetlerimizden yararlanarak, bu Politika'da belirtilen şartları kabul etmiş sayılırsınız. Bu şartları kabul etmiyorsanız, lütfen Site'yi kullanmayın ve Hizmetlerimizden yararlanmayın."
+        },
+        {
+          "title": "2. Veri Sorumlusu ve İletişim Bilgileri",
+          "content": "KVKK uyarınca Veri Sorumlusu sıfatına haiz olan M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, kişisel verilerinizin işlenmesinden sorumludur. Şirket ile ilgili iletişim bilgileri: E-posta: info@mdijital.com, Telefon: +90 555 123 45 67, Adres: İstanbul, Türkiye. Kişisel verilerinizin işlenmesine ilişkin her türlü başvuru, talebiniz ve şikayetleriniz için yukarıdaki iletişim kanallarını kullanabilirsiniz. KVKK kapsamındaki başvurularınız, KVKK'nın 13. maddesi uyarınca yazılı olarak veya kayıtlı elektronik posta (KEP) adresi, güvenli elektronik imza, mobil imza veya daha önce Şirket'e bildirdiğiniz ve sistemimizde kayıtlı bulunan elektronik posta adresinizi kullanarak yapabilirsiniz."
+        },
+        {
+          "title": "3. Toplanan Kişisel Veriler ve Toplama Yöntemleri",
+          "content": "Şirket, Hizmetlerimizi sunmak, geliştirmek ve yasal yükümlülüklerimizi yerine getirmek amacıyla aşağıdaki kategorilerde kişisel verilerinizi toplayabilir: Kimlik Bilgileri: Ad, soyad, doğum tarihi, T.C. kimlik numarası (yasal zorunluluk halinde), pasaport bilgileri. İletişim Bilgileri: E-posta adresi, telefon numarası, adres bilgileri, sosyal medya hesap bilgileri. Müşteri İşlem Bilgileri: Sipariş bilgileri, fatura bilgileri, ödeme bilgileri, sözleşme bilgileri, proje detayları, talep ve şikayet kayıtları. İşlem Güvenliği Bilgileri: IP adresi, log kayıtları, çerez bilgileri, cihaz bilgileri, tarayıcı bilgileri, işletim sistemi bilgileri. Pazarlama Bilgileri: Çerez ID'leri, reklam ID'leri, pazarlama tercihleri, abonelik bilgileri. Kişisel verileriniz, Site üzerinden doldurduğunuz formlar, e-posta yoluyla gönderdiğiniz mesajlar, telefon görüşmeleri, sosyal medya etkileşimleri, çerezler ve benzeri teknolojiler, otomatik toplama yöntemleri ve üçüncü taraf kaynaklardan toplanabilir."
+        },
+        {
+          "title": "4. Kişisel Verilerin İşlenme Amaçları ve Hukuki Sebepleri",
+          "content": "KVKK'nın 5. ve 6. maddeleri uyarınca, kişisel verileriniz aşağıdaki amaçlarla ve hukuki sebeplere dayanarak işlenmektedir: Hizmetlerin Sunulması: Hizmetlerimizi sunmak, sözleşmeleri yerine getirmek, müşteri ilişkilerini yönetmek (Hukuki Sebep: Sözleşmenin kurulması veya ifası, KVKK m.5/2-c). Yasal Yükümlülüklerin Yerine Getirilmesi: Vergi mevzuatı, ticaret kanunu, iş kanunu ve diğer mevzuat hükümlerine uyum (Hukuki Sebep: Yasal yükümlülüğün yerine getirilmesi, KVKK m.5/2-e). Meşru Menfaatler: İş geliştirme, pazarlama faaliyetleri, müşteri memnuniyeti analizleri, güvenlik önlemleri (Hukuki Sebep: Meşru menfaat, KVKK m.5/2-f). Açık Rıza: Pazarlama iletişimleri, çerez kullanımı, analitik amaçlı veri işleme (Hukuki Sebep: Açık rıza, KVKK m.5/2-a). Kişisel verileriniz, yukarıda belirtilen amaçlar dışında kullanılmaz ve işlenmez."
+        },
+        {
+          "title": "5. Kişisel Verilerin Aktarılması",
+          "content": "KVKK'nın 8. ve 9. maddeleri uyarınca, kişisel verileriniz aşağıdaki durumlarda yurt içi ve yurt dışındaki üçüncü kişilere aktarılabilir: Hizmet Sağlayıcılar: Hosting hizmeti sağlayıcıları, bulut depolama hizmetleri, e-posta servis sağlayıcıları, ödeme işlemcisi hizmet sağlayıcıları, analitik servis sağlayıcıları (Google Analytics, vb.). İş Ortakları: Proje geliştirme ortakları, danışmanlık hizmeti sağlayıcıları, pazarlama ajansları. Yasal Zorunluluklar: Mahkemeler, savcılıklar, kolluk kuvvetleri, vergi daireleri ve diğer kamu kurum ve kuruluşları. Yurt dışına aktarım durumunda, KVKK'nın 9. maddesi uyarınca yeterli korumanın bulunduğu ülkelere veya yeterli koruma sağlayan sözleşmelerle aktarım yapılır. Aktarılan veriler, yalnızca belirtilen amaçlar için kullanılır ve güvenlik önlemleri alınır."
+        },
+        {
+          "title": "6. Kişisel Verilerin Saklanma Süreleri",
+          "content": "KVKK'nın 7. maddesi uyarınca, kişisel verileriniz işleme amacının gerektirdiği süre boyunca ve yasal saklama sürelerine uygun olarak saklanır. İşleme amacı ortadan kalktığında veya yasal saklama süresi dolduğunda, kişisel verileriniz KVKK'nın 7. maddesi uyarınca silinir, yok edilir veya anonim hale getirilir. Genel olarak: Sözleşme bilgileri: Sözleşme süresi + 10 yıl (Türk Ticaret Kanunu), Fatura ve muhasebe kayıtları: 10 yıl (Vergi Usul Kanunu), İletişim kayıtları: 2 yıl, Pazarlama izinleri: İptal edilene kadar, Çerez verileri: Çerez türüne göre değişken (oturum çerezleri: oturum sonuna kadar, kalıcı çerezler: maksimum 2 yıl)."
+        },
+        {
+          "title": "7. Veri Güvenliği ve Teknik-İdari Önlemler",
+          "content": "KVKK'nın 12. maddesi uyarınca, kişisel verilerinizin güvenliğini sağlamak için aşağıdaki teknik ve idari önlemler alınmaktadır: Teknik Önlemler: SSL/TLS şifreleme protokolleri, güvenli veri aktarımı, şifreli veri depolama, erişim kontrol sistemleri, güvenlik duvarları, saldırı tespit sistemleri, düzenli güvenlik güncellemeleri, yedekleme sistemleri, veri kaybını önleme sistemleri. İdari Önlemler: Personel eğitimleri, gizlilik sözleşmeleri, erişim yetkilendirme prosedürleri, düzenli güvenlik denetimleri, veri ihlali müdahale planları, güvenlik politikaları ve prosedürleri. Ancak, internet üzerinden veri iletiminin %100 güvenli olmadığını ve hiçbir güvenlik sisteminin mutlak güvenlik sağlayamayacağını kabul edersiniz. Veri ihlali durumunda, KVKK'nın 12. maddesi uyarınca en geç 72 saat içinde Kişisel Verileri Koruma Kurulu'na bildirim yapılır ve mümkün olduğunca hızlı bir şekilde Veri Sahipleri bilgilendirilir."
+        },
+        {
+          "title": "8. Veri Sahibinin Hakları",
+          "content": "KVKK'nın 11. maddesi uyarınca, kişisel verilerinizle ilgili aşağıdaki haklara sahipsiniz: Kişisel verilerinizin işlenip işlenmediğini öğrenme, İşlenmişse buna ilişkin bilgi talep etme, İşlenme amacını ve amacına uygun kullanılıp kullanılmadığını öğrenme, Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme, Eksik veya yanlış işlenmişse düzeltilmesini isteme, KVKK'nın 7. maddesinde öngörülen şartlar çerçevesinde silinmesini veya yok edilmesini isteme, Düzeltme, silme, yok etme işlemlerinin, kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, İşlenen verilerin münhasıran otomatik sistemler ile analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme, Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması halinde zararın giderilmesini talep etme. Bu haklarınızı kullanmak için, kimliğinizi tespit edici belgelerle birlikte yazılı başvuruda bulunabilir veya kayıtlı elektronik posta (KEP) adresi, güvenli elektronik imza, mobil imza veya daha önce bildirdiğiniz elektronik posta adresinizi kullanarak başvuruda bulunabilirsiniz. Başvurularınız, başvuru tarihinden itibaren en geç otuz gün içinde sonuçlandırılır."
+        },
+        {
+          "title": "9. Çerezler ve Benzeri Teknolojiler",
+          "content": "Site'mizde, kullanıcı deneyimini iyileştirmek, Site'nin işlevselliğini sağlamak, analitik amaçlarla ve pazarlama faaliyetleri için çerezler ve benzeri teknolojiler (pixel tag, web beacon, vb.) kullanılmaktadır. Çerez türleri: Zorunlu Çerezler: Site'nin temel işlevlerinin çalışması için gerekli olan çerezler. Bu çerezler olmadan Site düzgün çalışmaz. Performans Çerezleri: Site kullanımını analiz etmek, ziyaretçi sayılarını ölçmek ve Site performansını iyileştirmek için kullanılan çerezler. İşlevsellik Çerezleri: Kullanıcı tercihlerini hatırlamak, dil seçimi, oturum bilgileri gibi işlevleri sağlamak için kullanılan çerezler. Hedefleme/Pazarlama Çerezleri: Kullanıcı ilgi alanlarına göre reklam göstermek, pazarlama kampanyalarını ölçmek için kullanılan çerezler. Çerez tercihlerinizi tarayıcı ayarlarınızdan yönetebilirsiniz. Ancak, bazı çerezleri devre dışı bırakmanız Site'nin bazı özelliklerinin çalışmamasına neden olabilir. Detaylı bilgi için Çerez Politikamızı inceleyebilirsiniz."
+        },
+        {
+          "title": "10. Çocukların Kişisel Verileri",
+          "content": "Site ve Hizmetlerimiz, 18 yaş altındaki çocuklardan bilerek kişisel veri toplamamaktadır. 18 yaş altındaki bir çocuğun kişisel verilerini topladığımızı fark edersek, bu verileri derhal sileriz. Eğer bir ebeveyn veya vasi, çocuğun kişisel verilerinin toplandığını düşünüyorsa, lütfen bizimle iletişime geçsin."
+        },
+        {
+          "title": "11. Politika Değişiklikleri",
+          "content": "Şirket, bu Gizlilik Politikası'nı herhangi bir zamanda değiştirme hakkını saklı tutar. Önemli değişiklikler, Site'de yayınlanarak veya e-posta yoluyla bildirilerek duyurulur. Değişiklikler, Site'de yayınlandığı tarihten itibaren yürürlüğe girer. Politika değişikliklerinden haberdar olmak için bu sayfayı düzenli olarak ziyaret etmeniz önerilir. Politika'nın son güncelleme tarihi, sayfanın üst kısmında belirtilmiştir."
+        },
+        {
+          "title": "12. Şikayet ve İtiraz Hakkı",
+          "content": "Kişisel verilerinizin işlenmesine ilişkin haklarınızın ihlal edildiğini düşünüyorsanız, öncelikle Şirket'e başvuruda bulunabilirsiniz. Başvurunuza yeterli süre içinde yanıt verilmemesi veya yanıttan memnun kalmamanız halinde, KVKK'nın 14. maddesi uyarınca Kişisel Verileri Koruma Kurulu'na şikayet başvurusunda bulunabilirsiniz. Kişisel Verileri Koruma Kurulu'nun adresi: Nasuh Akar Mahallesi 1407. Sokak No:4 06520 Balgat/Çankaya/Ankara, Telefon: +90 312 216 50 00, E-posta: kvkk@kvkk.gov.tr, Web: www.kvkk.gov.tr."
+        },
+        {
+          "title": "13. İletişim ve Başvuru",
+          "content": "Bu Gizlilik Politikası hakkında sorularınız, kişisel verilerinizle ilgili haklarınızı kullanmak için başvurularınız veya şikayetleriniz için aşağıdaki iletişim kanallarını kullanabilirsiniz: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, E-posta: info@mdijital.com, Telefon: +90 555 123 45 67, Adres: İstanbul, Türkiye. Başvurularınız, kimliğinizi tespit edici belgelerle birlikte yazılı olarak veya kayıtlı elektronik posta (KEP) adresi, güvenli elektronik imza, mobil imza veya daha önce bildirdiğiniz elektronik posta adresinizi kullanarak yapılabilir. Başvurularınız, başvuru tarihinden itibaren en geç otuz gün içinde sonuçlandırılır ve sonuç yazılı veya elektronik ortamda size bildirilir."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Kullanım Koşulları",
+      "description": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi web sitesi kullanım koşulları.",
+      "lastUpdated": "Son Güncelleme: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. Genel Hükümler ve Tanımlar",
+          "content": "Bu Kullanım Koşulları (\"Koşullar\"), M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Şirket\", \"biz\", \"bizim\") tarafından işletilen mdijital.io web sitesi (\"Site\") ve ilgili dijital hizmetlerin (\"Hizmetler\") kullanımına ilişkin hukuki çerçeveyi düzenlemektedir. Site'yi ziyaret eden, kullanan veya Hizmetlerimizden yararlanan tüm gerçek ve tüzel kişiler (\"Kullanıcı\", \"siz\", \"sizin\") bu Koşullar'a tabidir. Site'yi kullanarak veya Hizmetlerimizden yararlanarak, bu Koşullar'ı okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan etmiş sayılırsınız. Bu Koşullar'ı kabul etmiyorsanız, lütfen Site'yi kullanmayın ve Hizmetlerimizden yararlanmayın. Bu Koşullar, Türkiye Cumhuriyeti yasalarına tabidir ve Türk Borçlar Kanunu, Türk Ticaret Kanunu, Fikir ve Sanat Eserleri Kanunu ve ilgili mevzuat hükümleri çerçevesinde yorumlanır."
+        },
+        {
+          "title": "2. Hizmetlerin Kapsamı ve Sunumu",
+          "content": "Şirket, web geliştirme, mobil uygulama geliştirme, sistem mimarisi tasarımı, yapay zeka entegrasyonu, blockchain çözümleri, dijital dönüşüm danışmanlığı ve ilgili teknoloji hizmetleri (\"Hizmetler\") sunmaktadır. Hizmetlerin kapsamı, özellikleri, teknik şartları, teslim süreleri, fiyatlandırması ve ödeme koşulları, her bir proje için ayrıca düzenlenecek hizmet sözleşmeleri, teklif mektupları, iş emirleri veya benzeri belgelerle (\"Sözleşme\") belirlenir. Site üzerinde yer alan bilgiler, genel tanıtım amaçlıdır ve bağlayıcı teklif niteliği taşımaz. Kesin hizmet kapsamı, fiyatlandırma ve koşullar, yazılı Sözleşme ile belirlenir. Şirket, Hizmetlerin sürekli, kesintisiz, hatasız veya güvenli olacağını garanti etmez. Hizmetler, \"olduğu gibi\" (\"as is\") ve \"mevcut haliyle\" (\"as available\") sunulur."
+        },
+        {
+          "title": "3. Kullanıcı Yükümlülükleri ve Yasaklar",
+          "content": "Kullanıcı, Site'yi ve Hizmetleri yalnızca yasal amaçlarla ve bu Koşullar'a uygun olarak kullanmayı taahhüt eder. Aşağıdaki faaliyetler kesinlikle yasaktır: Site'yi veya Hizmetleri yasadışı, dolandırıcılık, sahtekarlık veya zararlı amaçlarla kullanmak, Site'nin güvenlik önlemlerini aşmaya çalışmak, zararlı yazılım (malware, virus, trojan, vb.) yüklemek veya yaymak, Site'nin kaynak kodunu, algoritmalarını veya teknolojik altyapısını tersine mühendislik yöntemleriyle çözmeye çalışmak, Site'yi otomatik sistemler (bot, crawler, scraper) ile aşırı yüklemek veya DDoS saldırısı yapmak, Başkalarının fikri mülkiyet haklarını, kişilik haklarını, gizlilik haklarını veya diğer haklarını ihlal etmek, Sahte, yanıltıcı veya yanlış bilgi vermek, Spam, phishing veya benzeri zararlı içerik göndermek, Site'nin işleyişini bozmaya veya engellemeye çalışmak. Bu yasakların ihlali halinde, Şirket, Kullanıcı'nın Site'ye erişimini derhal sonlandırabilir, yasal haklarını saklı tutar ve gerekli hukuki işlemleri başlatabilir."
+        },
+        {
+          "title": "4. Fikri Mülkiyet Hakları",
+          "content": "Site'de yer alan tüm içerikler (metinler, görseller, logolar, tasarımlar, yazılımlar, kodlar, veritabanları, ses kayıtları, video kayıtları ve diğer materyaller) Şirket'in veya lisans verdiği üçüncü kişilerin fikri mülkiyetidir ve Fikir ve Sanat Eserleri Kanunu, Markaların Korunması Hakkında Kanun Hükmünde Kararname, Patent Haklarının Korunması Hakkında Kanun ve ilgili mevzuat hükümleri ile korunmaktadır. Site içeriği, telif hakkı (copyright), marka (trademark), patent, ticari sır ve diğer fikri mülkiyet hakları ile korunmaktadır. Site içeriğini, Şirket'in yazılı izni olmadan kopyalamak, çoğaltmak, dağıtmak, yayınlamak, değiştirmek, türev eserler oluşturmak, ticari amaçlarla kullanmak veya başka şekillerde kullanmak kesinlikle yasaktır. Site'de yer alan \"M Dijital\", \"MDIJITAL\" markaları ve logoları, Şirket'in tescilli veya tescil başvurusu yapılmış markalarıdır. Bu markaların izinsiz kullanımı, Markaların Korunması Hakkında Kanun Hükmünde Kararname'nin ihlali anlamına gelir ve hukuki yaptırımlara tabidir."
+        },
+        {
+          "title": "5. Sorumluluk Reddi ve Sınırlamalar",
+          "content": "Şirket, Site ve Hizmetlerin kesintisiz, hatasız, güvenli, zamanında veya belirli bir amaca uygun olacağını garanti etmez. Site ve Hizmetler, \"olduğu gibi\" (\"as is\") ve \"mevcut haliyle\" (\"as available\") sunulur. Şirket, Site ve Hizmetlerin kullanımından veya kullanılamamasından kaynaklanan doğrudan, dolaylı, arızi, özel, cezai veya sonuç zararlarından (veri kaybı, kar kaybı, iş kaybı, itibar kaybı, vb.) sorumlu tutulamaz. Şirket, üçüncü taraf web sitelerine, hizmetlere veya içeriklere yapılan bağlantılardan (link) sorumlu değildir. Üçüncü taraf içeriklerinin doğruluğu, güvenilirliği, yasallığı veya uygunluğu Şirket'in kontrolü dışındadır. Şirket, Kullanıcı'nın Site'yi veya Hizmetleri kullanarak yaptığı işlemlerden, gönderdiği içeriklerden veya üçüncü kişilerle olan ilişkilerinden sorumlu değildir. Şirket, doğal afetler, savaş, terör, grev, hükümet müdahaleleri, internet kesintileri, siber saldırılar veya kontrolü dışındaki diğer olaylardan kaynaklanan hizmet kesintilerinden sorumlu tutulamaz."
+        },
+        {
+          "title": "6. Kullanıcı İçeriği ve Lisans",
+          "content": "Kullanıcı, Site'ye gönderdiği, yüklediği veya paylaştığı tüm içeriklerden (metin, görsel, video, dosya, vb.) (\"Kullanıcı İçeriği\") sorumludur. Kullanıcı, Kullanıcı İçeriği'nin yasalara, bu Koşullar'a ve üçüncü kişilerin haklarına uygun olduğunu garanti eder. Kullanıcı, Kullanıcı İçeriği'ni Site'ye göndererek, Şirket'e bu içeriği dünya çapında, telif hakkı bedeli ödenmeksizin, alt lisans verme hakkı dahil olmak üzere, Site'de ve Hizmetlerde kullanma, çoğaltma, dağıtma, yayınlama, değiştirme ve türev eserler oluşturma hakkını veren süresiz, geri alınamaz, devredilebilir lisans vermiş olur. Şirket, Kullanıcı İçeriği'ni, yasalara veya bu Koşullar'a aykırı olduğunu düşündüğü takdirde, önceden bildirimde bulunmaksızın silme, değiştirme veya erişimi engelleme hakkını saklı tutar."
+        },
+        {
+          "title": "7. Üçüncü Taraf Hizmetler ve Bağlantılar",
+          "content": "Site'de, üçüncü taraf web sitelerine, hizmetlere veya içeriklere bağlantılar (link) bulunabilir. Bu bağlantılar, yalnızca Kullanıcı'nın kolaylığı için sağlanmıştır ve Şirket'in bu üçüncü taraf siteleri, hizmetleri veya içerikleri onayladığı, kontrol ettiği veya sorumlu olduğu anlamına gelmez. Şirket, üçüncü taraf web sitelerinin içeriğinden, gizlilik uygulamalarından, hizmet kalitesinden, güvenliğinden veya yasallığından sorumlu değildir. Üçüncü taraf hizmetleri kullanırken, ilgili üçüncü tarafın kullanım koşulları ve gizlilik politikaları geçerlidir. Şirket, üçüncü taraf hizmetlerin kullanımından kaynaklanan zararlardan sorumlu tutulamaz."
+        },
+        {
+          "title": "8. Ödeme ve Faturalandırma",
+          "content": "Hizmetlerin fiyatlandırması, her bir proje için ayrıca düzenlenecek Sözleşme'de belirlenir. Fiyatlar, Türk Lirası (TRY) cinsinden belirtilir ve KDV dahildir. Ödeme koşulları, Sözleşme'de belirtilir. Genel olarak: Peşin ödemeler, hizmet başlangıcından önce yapılır, Taksitli ödemeler, proje aşamalarına göre belirlenir, Ödemeler, banka havalesi, kredi kartı veya diğer kabul edilen ödeme yöntemleri ile yapılır. Ödeme yapılmaması veya gecikmesi halinde, Şirket, hizmetleri askıya alma veya sonlandırma hakkını saklı tutar. Faturalandırma, Türk Vergi Mevzuatı'na uygun olarak yapılır. Fatura bilgileri, Sözleşme'de belirtilen bilgilere göre düzenlenir."
+        },
+        {
+          "title": "9. Gizlilik ve Veri Koruma",
+          "content": "Kişisel verilerinizin işlenmesi, Gizlilik Politikamız'da detaylı olarak açıklanmıştır. Site'yi kullanarak, Gizlilik Politikamız'ı kabul etmiş sayılırsınız. Kişisel verileriniz, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) ve ilgili mevzuat hükümleri uyarınca işlenir ve korunur. Şirket, kişisel verilerinizin güvenliğini sağlamak için teknik ve idari önlemler alır. Ancak, internet üzerinden veri iletiminin %100 güvenli olmadığını kabul edersiniz."
+        },
+        {
+          "title": "10. Fesih ve Sonlandırma",
+          "content": "Şirket, Kullanıcı'nın bu Koşullar'ı ihlal etmesi, yasalara aykırı davranması veya Site'nin güvenliğini tehdit etmesi halinde, önceden bildirimde bulunmaksızın Kullanıcı'nın Site'ye erişimini derhal sonlandırabilir. Kullanıcı, herhangi bir zamanda Site'yi kullanmayı bırakabilir. Ancak, devam eden hizmet sözleşmeleri, ayrı Sözleşme hükümlerine tabidir. Fesih halinde, Kullanıcı'nın Site'deki içerikleri silinebilir ve geri yüklenemez. Devam eden ödemeler ve yükümlülükler, fesih tarihinden sonra da geçerliliğini korur."
+        },
+        {
+          "title": "11. Koşulların Değiştirilmesi",
+          "content": "Şirket, bu Kullanım Koşulları'nı herhangi bir zamanda, önceden bildirimde bulunarak veya bulunmaksızın değiştirme hakkını saklı tutar. Değişiklikler, Site'de yayınlandığı tarihten itibaren yürürlüğe girer. Önemli değişiklikler, Site'de duyurulur veya e-posta yoluyla bildirilir. Değişikliklerden haberdar olmak için bu sayfayı düzenli olarak ziyaret etmeniz önerilir. Değişikliklerden sonra Site'yi veya Hizmetleri kullanmaya devam etmeniz, değişiklikleri kabul ettiğiniz anlamına gelir. Değişiklikleri kabul etmiyorsanız, Site'yi kullanmayı bırakmalısınız."
+        },
+        {
+          "title": "12. Uygulanacak Hukuk ve Yetkili Mahkeme",
+          "content": "Bu Kullanım Koşulları, Türkiye Cumhuriyeti yasalarına tabidir ve Türk hukuku çerçevesinde yorumlanır. Bu Koşullar'dan kaynaklanan veya bunlarla ilgili her türlü uyuşmazlık, öncelikle dostane çözüm yolları ile çözülmeye çalışılır. Dostane çözüm sağlanamazsa, İstanbul Mahkemeleri ve İcra Daireleri münhasıran yetkilidir. Türkiye Cumhuriyeti yasaları, bu Koşullar'ın herhangi bir hükmünü geçersiz kılarsa, bu hüküm geçersiz sayılır ve diğer hükümler yürürlükte kalır."
+        },
+        {
+          "title": "13. Ayrılabilirlik ve Tam Anlaşma",
+          "content": "Bu Koşullar'ın herhangi bir hükmü, yasal olarak geçersiz, hükümsüz veya uygulanamaz hale gelirse, bu hüküm geçersiz sayılır ve diğer hükümler tam olarak yürürlükte kalır. Bu Koşullar, Site ve Hizmetlerin kullanımına ilişkin Şirket ile Kullanıcı arasındaki tam anlaşmayı oluşturur ve önceki tüm sözlü veya yazılı anlaşmaların yerini alır. Bu Koşullar'ın herhangi bir hükmünün uygulanmaması, o hükmün feragat edildiği anlamına gelmez."
+        },
+        {
+          "title": "14. İletişim ve Bildirimler",
+          "content": "Bu Kullanım Koşulları hakkında sorularınız, şikayetleriniz veya bildirimleriniz için aşağıdaki iletişim kanallarını kullanabilirsiniz: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, E-posta: info@mdijital.com, Telefon: +90 555 123 45 67, Adres: İstanbul, Türkiye. Şirket'ten gelen bildirimler, Site'de yayınlanarak, e-posta yoluyla veya Kullanıcı'nın bildirdiği adrese gönderilerek yapılır. Bildirimler, gönderildiği tarihten itibaren geçerli sayılır."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Çerez Politikası",
+      "description": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi çerez kullanımı ve tercihleriniz.",
+      "lastUpdated": "Son Güncelleme: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. Genel Hükümler ve Tanımlar",
+          "content": "Bu Çerez Politikası (\"Politika\"), 6698 sayılı Kişisel Verilerin Korunması Kanunu (\"KVKK\") ve ilgili mevzuat hükümleri uyarınca, M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Şirket\", \"Veri Sorumlusu\") tarafından işletilen mdijital.io web sitesi (\"Site\") üzerinde kullanılan çerezler ve benzeri teknolojilere ilişkin bilgilendirmeyi içermektedir. Bu Politika, Site'yi ziyaret eden tüm kullanıcılar için geçerlidir. Çerez (Cookie): Web sitelerini ziyaret ettiğinizde cihazınıza (bilgisayar, tablet, akıllı telefon) kaydedilen küçük metin dosyalarıdır. Çerezler, web sitesinin düzgün çalışmasını sağlar, kullanıcı deneyimini iyileştirir ve belirli işlevleri yerine getirir. Web Beacon/Pixel Tag: Görsel olarak görünmeyen, web sayfalarında veya e-postalarda kullanılan küçük görsel dosyalardır. Local Storage: Tarayıcıda veri saklamak için kullanılan teknolojidir. Session Storage: Oturum süresince veri saklamak için kullanılan teknolojidir."
+        },
+        {
+          "title": "2. Çerez Türleri ve Kullanım Amaçları",
+          "content": "Site'mizde, aşağıdaki kategorilerde çerezler kullanılmaktadır: Zorunlu Çerezler (Strictly Necessary Cookies): Site'nin temel işlevlerinin çalışması için mutlaka gerekli olan çerezlerdir. Bu çerezler olmadan Site düzgün çalışmaz. Örnek: Oturum yönetimi çerezleri, güvenlik çerezleri, dil tercihi çerezleri. Bu çerezler, KVKK'nın 5/2-f maddesi uyarınca \"meşru menfaat\" hukuki sebebine dayanarak, açık rıza alınmaksızın kullanılabilir. Performans ve Analitik Çerezleri (Performance/Analytics Cookies): Site kullanımını analiz etmek, ziyaretçi sayılarını ölçmek, Site performansını iyileştirmek ve kullanıcı davranışlarını anlamak için kullanılan çerezlerdir. Örnek: Google Analytics çerezleri, heatmap çerezleri, A/B test çerezleri. Bu çerezler, KVKK'nın 5/2-a maddesi uyarınca \"açık rıza\" hukuki sebebine dayanarak kullanılır. İşlevsellik Çerezleri (Functionality Cookies): Kullanıcı tercihlerini hatırlamak, dil seçimi, oturum bilgileri, form verileri gibi işlevleri sağlamak için kullanılan çerezlerdir. Örnek: Dil tercihi çerezleri, tema tercihi çerezleri, kullanıcı ayarları çerezleri. Bu çerezler, KVKK'nın 5/2-f maddesi uyarınca \"meşru menfaat\" veya 5/2-a maddesi uyarınca \"açık rıza\" hukuki sebebine dayanarak kullanılır. Hedefleme/Pazarlama Çerezleri (Targeting/Marketing Cookies): Kullanıcı ilgi alanlarına göre reklam göstermek, pazarlama kampanyalarını ölçmek, kişiselleştirilmiş içerik sunmak için kullanılan çerezlerdir. Örnek: Reklam platform çerezleri, retargeting çerezleri, sosyal medya entegrasyon çerezleri. Bu çerezler, KVKK'nın 5/2-a maddesi uyarınca \"açık rıza\" hukuki sebebine dayanarak kullanılır ve açık rıza alınmadan kullanılamaz."
+        },
+        {
+          "title": "3. Kullanılan Çerezlerin Detaylı Listesi",
+          "content": "Site'mizde kullanılan çerezler ve detayları: Oturum Çerezleri (Session Cookies): Oturum yönetimi için kullanılır, oturum sona erdiğinde silinir. Kalıcı Çerezler (Persistent Cookies): Kullanıcı tercihlerini hatırlamak için kullanılır, maksimum 2 yıl saklanır. Google Analytics Çerezleri: _ga (2 yıl), _gid (24 saat), _gat (1 dakika) - Site trafiğini analiz etmek için kullanılır. Dil Tercihi Çerezleri: next-intl-locale - Kullanıcı'nın dil tercihini hatırlamak için kullanılır, 1 yıl saklanır. Güvenlik Çerezleri: CSRF token çerezleri - Güvenlik için kullanılır, oturum sona erdiğinde silinir. Çerez detayları ve saklama süreleri, teknoloji güncellemeleri ve yasal gereklilikler doğrultusunda değişebilir."
+        },
+        {
+          "title": "4. Üçüncü Taraf Çerezler ve Hizmetler",
+          "content": "Site'mizde, aşağıdaki üçüncü taraf hizmetlerin çerezleri kullanılabilir: Google Analytics: Web analitiği hizmeti, Google'ın gizlilik politikasına tabidir (https://policies.google.com/privacy). Google reCAPTCHA: Bot koruması hizmeti, Google'ın gizlilik politikasına tabidir. Sosyal Medya Eklentileri: Facebook, Twitter, LinkedIn, Instagram gibi sosyal medya platformlarının entegrasyon çerezleri, ilgili platformların gizlilik politikalarına tabidir. Üçüncü taraf çerezlerin kullanımı, ilgili üçüncü tarafların gizlilik politikalarına ve çerez politikalarına tabidir. Şirket, üçüncü taraf çerezlerin kullanımından veya içeriğinden sorumlu değildir. Üçüncü taraf çerezleri yönetmek için, ilgili üçüncü tarafın gizlilik politikalarını ve çerez ayarlarını inceleyebilirsiniz."
+        },
+        {
+          "title": "5. Çerez Tercihlerinizin Yönetimi",
+          "content": "KVKK'nın 5. maddesi uyarınca, çerez tercihlerinizi yönetme hakkına sahipsiniz. Çerez tercihlerinizi aşağıdaki yöntemlerle yönetebilirsiniz: Tarayıcı Ayarları: Tarayıcınızın ayarlar menüsünden çerezleri yönetebilir, belirli çerezleri engelleyebilir veya tüm çerezleri silebilirsiniz. Ancak, zorunlu çerezleri engellemeniz, Site'nin bazı özelliklerinin çalışmamasına neden olabilir. Çerez Yönetim Paneli: Site'de (yakında eklenecek) çerez yönetim paneli üzerinden çerez tercihlerinizi yönetebilirsiniz. Mobil Cihaz Ayarları: Mobil cihazlarınızın ayarlarından çerez tercihlerinizi yönetebilirsiniz. Çerez tercihlerinizi değiştirmeniz, mevcut çerezlerin anında silinmesine neden olmaz. Mevcut çerezleri silmek için tarayıcı ayarlarınızdan çerezleri temizlemeniz gerekir. Çerez tercihlerinizi değiştirdikten sonra Site'yi kullanmaya devam etmeniz, yeni tercihlerinizi kabul ettiğiniz anlamına gelir."
+        },
+        {
+          "title": "6. Çerezlerin Hukuki Dayanağı ve Açık Rıza",
+          "content": "KVKK'nın 5. maddesi uyarınca, çerezlerin kullanımı için hukuki sebepler: Zorunlu Çerezler: Meşru menfaat (KVKK m.5/2-f) - Site'nin teknik işlevselliği için gerekli. Performans/Analitik Çerezleri: Açık rıza (KVKK m.5/2-a) - Kullanıcı deneyimini iyileştirmek için. İşlevsellik Çerezleri: Meşru menfaat (KVKK m.5/2-f) veya Açık rıza (KVKK m.5/2-a) - Kullanıcı tercihlerini hatırlamak için. Hedefleme/Pazarlama Çerezleri: Açık rıza (KVKK m.5/2-a) - Pazarlama amaçlı kullanım için zorunlu. Açık rıza gerektiren çerezler için, Site'yi ilk ziyaret ettiğinizde çerez onay banner'ı gösterilir. Rızanızı istediğiniz zaman geri çekebilirsiniz. Rızanızı geri çekmeniz, rıza geri çekilmeden önce yapılan işlemlerin geçerliliğini etkilemez."
+        },
+        {
+          "title": "7. Çerezlerin Saklanma Süreleri",
+          "content": "Çerezlerin saklanma süreleri, çerez türüne göre değişmektedir: Oturum Çerezleri: Oturum sona erdiğinde otomatik olarak silinir. Kalıcı Çerezler: Maksimum 2 yıl saklanır, süre dolduğunda otomatik olarak silinir. Google Analytics Çerezleri: _ga: 2 yıl, _gid: 24 saat, _gat: 1 dakika. Dil Tercihi Çerezleri: 1 yıl. Çerez saklama süreleri, teknoloji güncellemeleri, yasal gereklilikler veya işleme amacının değişmesi durumunda güncellenebilir. Çerezler, saklama süresi dolduğunda veya Kullanıcı tarafından silindiğinde otomatik olarak kaldırılır."
+        },
+        {
+          "title": "8. Çerezlerin Güvenliği",
+          "content": "Çerezler, güvenlik önlemleri ile korunmaktadır: HTTPS Protokolü: Tüm çerez iletimi, şifreli HTTPS protokolü üzerinden yapılır. HttpOnly Bayrağı: Hassas çerezler, JavaScript erişimine karşı korunur. Secure Bayrağı: Hassas çerezler, yalnızca şifreli bağlantılar üzerinden iletilir. SameSite Özelliği: CSRF saldırılarına karşı koruma sağlar. Çerezler, kişisel olarak tanımlanabilir bilgiler içermez veya şifrelenmiş formatta saklanır. Ancak, çerezlerin %100 güvenli olmadığını ve kötü amaçlı yazılımlar tarafından ele geçirilebileceğini kabul edersiniz."
+        },
+        {
+          "title": "9. Çerez Politikası Değişiklikleri",
+          "content": "Şirket, bu Çerez Politikası'nı herhangi bir zamanda değiştirme hakkını saklı tutar. Önemli değişiklikler, Site'de yayınlanarak veya e-posta yoluyla bildirilerek duyurulur. Değişiklikler, Site'de yayınlandığı tarihten itibaren yürürlüğe girer. Politika değişikliklerinden haberdar olmak için bu sayfayı düzenli olarak ziyaret etmeniz önerilir. Politika'nın son güncelleme tarihi, sayfanın üst kısmında belirtilmiştir."
+        },
+        {
+          "title": "10. İletişim ve Başvuru",
+          "content": "Bu Çerez Politikası hakkında sorularınız, çerez tercihlerinizle ilgili talepleriniz veya şikayetleriniz için aşağıdaki iletişim kanallarını kullanabilirsiniz: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, E-posta: info@mdijital.com, Telefon: +90 555 123 45 67, Adres: İstanbul, Türkiye. KVKK kapsamındaki başvurularınız, KVKK'nın 13. maddesi uyarınca yazılı olarak veya kayıtlı elektronik posta (KEP) adresi, güvenli elektronik imza, mobil imza veya daha önce bildirdiğiniz elektronik posta adresinizi kullanarak yapılabilir. Başvurularınız, başvuru tarihinden itibaren en geç otuz gün içinde sonuçlandırılır."
+        }
+      ]
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Sayfa Bulunamadı",
+      "description": "Aradığınız sayfa mevcut değil.",
+      "message": "Gürültü üretmeyiz. Mimari kurarız. Aradığınız sayfa bu mimaride yok.",
+      "backHome": "Ana Sayfaya Dön"
+    },
+    "500": {
+      "title": "Sunucu Hatası",
+      "description": "Bir hata oluştu.",
+      "message": "Sistemimizde geçici bir sorun var. Lütfen daha sonra tekrar deneyin.",
+      "backHome": "Ana Sayfaya Dön"
+    },
+    "generic": {
+      "title": "Bir Hata Oluştu",
+      "description": "Beklenmeyen bir hata oluştu.",
+      "message": "Lütfen daha sonra tekrar deneyin veya bizimle iletişime geçin.",
+      "backHome": "Ana Sayfaya Dön"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Düşüncelerimiz, fikirlerimiz ve deneyimlerimiz",
+    "loading": "Yükleniyor...",
+    "noPosts": "Henüz blog yazısı yok.",
+    "backToBlog": "Blog'a Dön",
+    "comments": {
+      "title": "Yorumlar",
+      "placeholder": "Yorumunuzu yazın...",
+      "submit": "Gönder",
+      "submitting": "Gönderiliyor...",
+      "loading": "Yorumlar yükleniyor...",
+      "noComments": "Henüz yorum yok. İlk yorumu siz yapın!",
+      "loginRequired": "Yorum yapmak için giriş yapmanız gerekiyor.",
+      "login": "Giriş Yap"
+    },
+    "admin": {
+      "newTitle": "Yeni Blog Yazısı",
+      "editTitle": "Blog Yazısını Düzenle",
+      "listTitle": "Blog Yazıları",
+      "newPost": "Yeni Yazı",
+      "title": "Başlık",
+      "excerpt": "Özet",
+      "content": "İçerik",
+      "featuredImage": "Öne Çıkan Görsel",
+      "publish": "Yayınla",
+      "save": "Kaydet",
+      "saving": "Kaydediliyor...",
+      "cancel": "İptal",
+      "settings": "Ayarlar",
+      "saveError": "Kaydetme hatası",
+      "loading": "Yükleniyor...",
+      "placeholderTitleTR": "EN doluysa opsiyonel",
+      "placeholderTitleEN": "TR doluysa opsiyonel",
+      "placeholderContentTR": "Türkçe içeriğinizi yazın...",
+      "placeholderContentEN": "İngilizce içeriğinizi yazın...",
+      "errorUploadFailed": "Yükleme başarısız",
+      "errorTitleRequired": "En az bir dilde başlık olmalı",
+      "errorContentRequired": "En az bir dilde içerik olmalı"
+    }
+  }
+}
+

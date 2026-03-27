@@ -1,0 +1,1114 @@
+{
+  "common": {
+    "brand": "M Dijital",
+    "language": "Language",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Request Access",
+    "dashboard": "Dashboard",
+    "admin": "Admin",
+    "close": "Close",
+    "submit": "Submit",
+    "loading": "Loading"
+  },
+  "home": {
+    "mainStatement": "We don't create noise.\nWe build architecture.",
+    "subtitle": "Smart Systems. Human-Centered Future.",
+    "scrollHint": "Scroll down"
+  },
+  "dunya": {
+    "title": "SKY",
+    "subtitle": "Where do we stand?",
+    "cards": [
+      {
+        "id": "speed-vs-structure",
+        "statement": "They say the digital age requires speed.",
+        "response": "We say it requires structure."
+      },
+      {
+        "id": "noise-vs-architecture",
+        "statement": "We don't create noise.",
+        "response": "We build architecture."
+      },
+      {
+        "id": "smart-systems",
+        "statement": "We build smart systems.",
+        "response": "We construct a human-centered future."
+      },
+      {
+        "id": "technology-decision",
+        "statement": "Technology is a tool.",
+        "response": "Decision belongs to humans."
+      },
+      {
+        "id": "data-evidence",
+        "statement": "Data speaks.",
+        "response": "Evidence guides."
+      },
+      {
+        "id": "future-building",
+        "statement": "The future is built.",
+        "response": "It starts today."
+      }
+    ]
+  },
+  "mimari": {
+    "title": "Architecture",
+    "items": [
+      {
+        "title": "Human + System Balance",
+        "description": "Technology does not manage humans; humans manage technology."
+      },
+      {
+        "title": "Artificial intelligence is a tool, not wisdom",
+        "description": "AI provides speed; humans make decisions."
+      },
+      {
+        "title": "Technology is a matter of decision",
+        "description": "Determining not what to do, but when to do it."
+      }
+    ]
+  },
+  "alanlar": {
+    "title": "Fields",
+    "identityLabel": "Identity",
+    "principleLabel": "Principle",
+    "items": [
+      {
+        "id": "oracle",
+        "title": "THE SEER",
+        "subtitle": "Artificial Intelligence & Strategy",
+        "slogan": "Reads the Unseen. Speaks the Future.",
+        "identity": "ORACLE is M Dijital's foresight and decision architecture. It combines data, artificial intelligence, and strategic intelligence; not with intuition but with evidence, not with speed but with accuracy.",
+        "principle": "When ORACLE speaks, it does not shout; it hits the mark."
+      },
+      {
+        "id": "shapeshifter",
+        "title": "TULPAR",
+        "subtitle": "Design Architecture",
+        "slogan": "Transform Form. Build Meaning.",
+        "identity": "A gateway to M Dijital's design universe. Every brand, institution, or idea that enters is freed from its molds, reads its context, and gains a new form appropriate to its own truth.",
+        "principle": "Design here is not decoration; it is transition, transformation, and meaning construction."
+      },
+      {
+        "id": "guardian",
+        "title": "ARCHITECT",
+        "subtitle": "Digital Governance & Public Technologies",
+        "slogan": "Root Power. Order to the Future.",
+        "identity": "M Dijital's governance intelligence. It takes the principle power of the great governance architects of the past; but reinterprets them not as historical figures, but as universal governance principles.",
+        "principle": "This character stands outside politics. Its aim is not to establish power; it is to establish, protect, and carry systems into the future."
+      },
+      {
+        "id": "identity",
+        "title": "Digital Identity",
+        "subtitle": "Corporate Architecture",
+        "slogan": "Digital Intelligence That Defines the Institution.",
+        "identity": "Identity and structure systems that make institutions' presence in the digital world not just visible, but meaningful, consistent, and sustainable.",
+        "principle": "Digital identity is an architecture that reflects the essence of the institution and carries it into the future."
+      },
+      {
+        "id": "marketing",
+        "title": "Narrative & Data Architecture",
+        "subtitle": "Data-Driven Communication",
+        "slogan": "From Data to Understanding, From Understanding to Impact.",
+        "identity": "Marketing and communication processes are structured to rely not on intuition but on data, not on noise but on strategic impact.",
+        "principle": "Every decision is supported by data; every impact must be measurable and sustainable."
+      },
+      {
+        "id": "metaverse",
+        "title": "Metaverse & NFT",
+        "subtitle": "Next-Generation Digital Economies",
+        "slogan": "Designing Tomorrow's Economy Today.",
+        "identity": "Metaverse, NFT, and digital asset ecosystems are approached not with speculation, but with long-term value and system logic.",
+        "principle": "The economy of the future is built today; not speculation, but architecture is constructed."
+      },
+      {
+        "id": "gameDevelopment",
+        "title": "Game Development",
+        "subtitle": "Interactive Experiences & Entertainment",
+        "slogan": "Play. Build. Engage.",
+        "identity": "M Dijital's game development practice delivers interactive experiences across mobile, web, and desktop. We combine narrative design, real-time systems, and scalable backends to build engaging games and gamified applications.",
+        "principle": "Great games are architecture: clear rules, lasting engagement, and measurable fun."
+      }
+    ]
+  },
+  "temas": {
+    "title": "NOXARA",
+    "subtitle": "You're here not to write to us, but to make contact.",
+    "common": {
+      "loading": "Loading"
+    },
+    "form": {
+      "title": "New Project Request",
+      "subtitle": "Detail your project, let's build together.",
+      "name": "Name",
+      "email": "Email (optional, for reply)",
+      "projectIdea": "What do you want to build?",
+      "projectIdeaInfo": "Briefly describe the project, system, or architecture you want to build.",
+      "productRange": "Product Range",
+      "productRangeInfo": "What product or service range do you want to develop?",
+      "timeHorizon": "What is your time horizon?",
+      "timeHorizonInfo": "The time frame you're considering for your project (short, medium, long term).",
+      "budgetRange": "Budget Range",
+      "budgetRangeInfo": "What budget range are you considering for your project?",
+      "thresholdQuestion": "Threshold question",
+      "thresholdQuestionInfo": "What drives you to take action, what makes you open the celler door for this contact?",
+      "companyName": "Company Name",
+      "companyNameInfo": "Enter your company name if applicable (optional)",
+      "companyIndustry": "Industry",
+      "companyIndustryInfo": "The industry your company operates in (optional)",
+      "companySector": "Sector Detail",
+      "companySectorInfo": "More specific sector information (optional)",
+      "companySize": "Company Size",
+      "companySizeInfo": "Number of employees or company size (optional)",
+      "companyWebsite": "Website",
+      "companyWebsiteInfo": "Company website URL (optional)",
+      "submit": "Open The Celler Door",
+      "success": "Contact received. Response will come at the appropriate time.",
+      "requestSubmitted": "Request submitted. Redirecting to dashboard...",
+      "calendlyNote": "A meeting link will be sent to you after your request is received.",
+      "companySectionTitle": "Company Information (Optional)",
+      "createMeeting": "Schedule Meeting",
+      "submitError": "Failed to submit request",
+      "errorOccurred": "An error occurred",
+      "placeholderProductRange": "e.g. Web app, mobile app, AI solution, e-commerce platform...",
+      "placeholderTimeHorizon": "e.g. 3 months, 6 months, 1 year",
+      "placeholderBudgetRange": "e.g. 10K-50K, 50K-100K, 100K+",
+      "placeholderCompanyIndustry": "e.g. Technology, Finance, Education, Healthcare...",
+      "placeholderCompanySector": "e.g. SaaS, FinTech, EdTech...",
+      "placeholderCompanySize": "e.g. 1-10, 11-50, 51-200, 200+"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Celler Door",
+      "email": "Identity",
+      "password": "Authority Key",
+      "submit": "Authorize",
+      "forgotPassword": "Forgot Password",
+      "invalidCredentials": "Invalid email or password",
+      "emailNotVerified": "Your email address is not verified. Please check your email.",
+      "errorOccurred": "An error occurred",
+      "noAccount": "Don't have an account?",
+      "rememberMe": "Remember Me",
+      "showPassword": "Show Password",
+      "hidePassword": "Hide Password"
+    },
+    "admin": {
+      "login": {
+        "title": "Admin Login",
+        "subtitle": "Authorized personnel only",
+        "email": "Email",
+        "password": "Password",
+        "submit": "Sign In",
+        "invalidCredentials": "Invalid email or password",
+        "notAdmin": "This account does not have admin privileges",
+        "tooManyAttempts": "Too many attempts. Please try again later.",
+        "onlyViaSubdomain": "Admin login is only allowed at admin.mdijital.io",
+        "errorOccurred": "An error occurred",
+        "loading": "Signing in...",
+        "securityNote": "This page is for authorized admin users only. All login attempts are logged."
+      }
+    },
+    "register": {
+      "title": "Request Access",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm Password",
+      "submit": "Submit Request",
+      "passwordHint": "Must be at least 8 characters with one uppercase, one lowercase, and one number",
+      "passwordMismatch": "Passwords do not match",
+      "registrationFailed": "Registration failed",
+      "errorOccurred": "An error occurred",
+      "alreadyHaveAccount": "Already have access? Enter",
+      "userExists": "An account with this email already exists.",
+      "pleaseVerifyEmail": "Redirecting to email verification page...",
+      "showPassword": "Show Password",
+      "hidePassword": "Hide Password"
+    },
+    "verifyEmail": {
+      "title": "Email Verification",
+      "subtitle": "Enter the 6-digit code sent to your email",
+      "email": "Email",
+      "code": "Verification Code",
+      "verify": "Verify",
+      "verifying": "Verifying...",
+      "verifySuccess": "Email verified successfully! Redirecting to login...",
+      "verifyError": "Verification failed",
+      "resendCode": "Resend Code",
+      "resendSuccess": "Verification code resent",
+      "resendError": "Failed to resend code",
+      "resendCountdown": "Try again in {{seconds}} seconds",
+      "errorOccurred": "An error occurred"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "We'll send you a password reset link to your email",
+      "email": "Email",
+      "submit": "Send",
+      "submitted": "Submitted",
+      "successMessage": "Password reset link has been sent to your email",
+      "tooManyRequests": "Too many requests. Please try again later.",
+      "errorOccurred": "An error occurred",
+      "backToLogin": "Back to Login"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "subtitle": "Set your new password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "passwordHint": "Must be at least 8 characters with one uppercase, one lowercase, and one number",
+      "submit": "Reset Password",
+      "resetting": "Resetting...",
+      "resetSuccess": "Password reset successfully! Redirecting to login...",
+      "resetError": "Password reset failed",
+      "passwordsDontMatch": "Passwords don't match",
+      "weakPassword": "Password must contain at least one uppercase letter, one lowercase letter, and one number",
+      "noToken": "Invalid or missing token",
+      "invalidToken": "Invalid or expired token",
+      "invalidTokenTitle": "Invalid Link",
+      "invalidTokenMessage": "This password reset link is invalid or has expired.",
+      "requestNewLink": "Request New Link",
+      "validating": "Validating token...",
+      "errorOccurred": "An error occurred"
+    }
+  },
+  "dashboard": {
+    "title": "Console",
+    "profile": "Profile",
+    "projectRequests": "Project Requests",
+    "newRequest": "New Request",
+    "noRequestsYet": "No project requests yet.",
+    "totalRequests": "Total Requests",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "noName": "No Name",
+    "profileLabel": "Profile",
+    "requestDetailTitle": "Project Request",
+    "updated": "Updated",
+    "projectIdea": "Project Idea",
+    "timeHorizon": "Time Horizon",
+    "statusTimeline": "Status Timeline",
+    "adminReply": "Admin reply",
+    "pending": "Pending",
+    "status": {
+      "received": "Received",
+      "inProgress": "In Progress",
+      "inprogress": "In Progress",
+      "completed": "Completed"
+    },
+    "profilePage": {
+      "title": "Profile Settings",
+      "profileInfo": "Profile Information",
+      "changePassword": "Change Password",
+      "name": "Name",
+      "email": "Email",
+      "emailVerified": "Email verified",
+      "emailNotVerified": "Email not verified",
+      "update": "Update Profile",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmPassword": "Confirm Password",
+      "passwordHint": "Must be at least 8 characters with one uppercase, one lowercase, and one number",
+      "passwordsDontMatch": "Passwords do not match",
+      "noChanges": "No changes to save",
+      "updateError": "Failed to update profile",
+      "updateSuccess": "Profile updated successfully",
+      "changePasswordError": "Failed to change password",
+      "changePasswordSuccess": "Password changed successfully",
+      "errorOccurred": "An error occurred"
+    },
+    "newsletter": {
+      "title": "Newsletter Management",
+      "subscription": "Newsletter Subscription",
+      "subscribed": "Subscribed",
+      "notSubscribed": "Not Subscribed",
+      "subscribe": "Subscribe",
+      "unsubscribe": "Unsubscribe",
+      "description": "Stay updated with our latest news, updates, and exclusive content.",
+      "alreadyUnsubscribed": "Already unsubscribed",
+      "updateError": "Failed to update subscription",
+      "subscribedSuccess": "Subscribed successfully",
+      "unsubscribedSuccess": "Unsubscribed successfully",
+      "errorOccurred": "An error occurred"
+    }
+  },
+  "admin": {
+    "title": "Admin Dashboard",
+    "more": "More",
+    "users": "Users",
+    "requests": "Requests",
+    "settings": "Settings",
+    "stats": {
+      "totalUsers": "Total Users",
+      "totalRequests": "Total Requests",
+      "inProgress": "In Progress",
+      "completed": "Completed",
+      "newContacts": "New Contacts",
+      "totalContacts": "Total Contacts",
+      "publishedPosts": "Published Posts",
+      "totalBlogPosts": "Total Blog Posts",
+      "newsletter": "Newsletter",
+      "subscribers": "Subscribers"
+    },
+    "dashboard": {
+      "recentRequests": "Recent Requests",
+      "recentContacts": "Recent Contacts",
+      "viewAll": "View All",
+      "noRequestsYet": "No requests yet",
+      "noContactsYet": "No contacts yet",
+      "totalLabel": "Total",
+      "anonymous": "Anonymous",
+      "statusReceived": "Received",
+      "statusInProgress": "In Progress",
+      "statusCompleted": "Completed",
+      "statusNew": "New",
+      "statusReplied": "Replied",
+      "statusArchived": "Archived"
+    },
+    "newsletter": {
+      "title": "Newsletter Management",
+      "email": "Email",
+      "status": "Status",
+      "locale": "Locale",
+      "subscribedAt": "Subscribed At",
+      "actions": "Actions",
+      "subscribed": "Subscribed",
+      "unsubscribed": "Unsubscribed",
+      "all": "All",
+      "searchPlaceholder": "Search by email...",
+      "noSubscriptions": "No subscriptions found",
+      "showing": "Showing",
+      "of": "of",
+      "previous": "Previous",
+      "next": "Next"
+    },
+    "contacts": {
+      "title": "Contact Submissions",
+      "noContacts": "No contacts found",
+      "all": "All",
+      "anonymous": "Anonymous",
+      "noName": "No Name",
+      "status": {
+        "new": "New",
+        "inProgress": "In Progress",
+        "replied": "Replied",
+        "archived": "Archived"
+      },
+      "details": {
+        "title": "Contact Details",
+        "contactInfo": "Contact Information",
+        "dates": "Dates",
+        "projectIdea": "Project Idea",
+        "timeHorizon": "Time Horizon",
+        "thresholdQuestion": "Threshold Question",
+        "reply": "Reply to Contact",
+        "replySubject": "Subject",
+        "replyMessage": "Message",
+        "sendReply": "Send Reply",
+        "sending": "Sending...",
+        "status": "Status",
+        "adminNotes": "Admin Notes",
+        "saveChanges": "Save Changes",
+        "saving": "Saving...",
+        "replied": "Replied",
+        "placeholderSubject": "Email subject...",
+        "placeholderMessage": "Your reply message...",
+        "placeholderAdminNotes": "Add internal notes about this contact...",
+        "replySent": "Reply sent to contact.",
+        "replyError": "Failed to send reply.",
+        "saved": "Changes saved.",
+        "saveError": "Failed to save."
+      }
+    },
+    "requests": {
+      "title": "Requests",
+      "details": {
+        "title": "Request Details",
+        "customer": "Customer",
+        "dates": "Dates",
+        "created": "Created",
+        "updated": "Updated",
+        "projectIdea": "Project Idea",
+        "timeHorizon": "Time Horizon",
+        "status": "Status",
+        "adminNotes": "Admin Notes",
+        "saveChanges": "Save Changes",
+        "saving": "Saving...",
+        "placeholderAdminNotes": "Add internal notes about this request...",
+        "statusReceived": "Received",
+        "statusInProgress": "In Progress",
+        "statusCompleted": "Completed",
+        "noName": "No Name"
+      }
+    },
+    "blog": {
+      "title": "Blog Management"
+    },
+    "applications": {
+      "title": "Job Applications",
+      "noApplications": "No applications yet.",
+      "all": "All",
+      "status": {
+        "new": "New",
+        "inProgress": "In Progress",
+        "hired": "Hired",
+        "rejected": "Rejected"
+      },
+      "details": {
+        "title": "Application Details",
+        "applicant": "Applicant",
+        "job": "Position",
+        "email": "Email",
+        "phone": "Phone",
+        "coverLetter": "Cover letter",
+        "cv": "CV",
+        "downloadCv": "Download CV",
+        "status": "Status",
+        "statusNew": "New",
+        "statusInProgress": "In Progress",
+        "statusHired": "Hired",
+        "statusRejected": "Rejected",
+        "adminNotes": "Admin notes",
+        "saveChanges": "Save changes",
+        "saving": "Saving...",
+        "dates": "Dates",
+        "createdAt": "Applied at",
+        "updatedAt": "Updated at",
+        "placeholderAdminNotes": "Internal notes..."
+      }
+    },
+    "careers": {
+      "title": "Job Postings",
+      "newJob": "New Job",
+      "titleTR": "Title (TR)",
+      "titleEN": "Title (EN)",
+      "descriptionTR": "Description (TR)",
+      "descriptionEN": "Description (EN)",
+      "location": "Location",
+      "jobType": "Type",
+      "published": "Published",
+      "actions": "Actions",
+      "edit": "Edit",
+      "delete": "Delete",
+      "noJobs": "No job postings yet.",
+      "createSuccess": "Job created.",
+      "updateSuccess": "Job updated.",
+      "deleteSuccess": "Job deleted.",
+      "saveChanges": "Save Changes",
+      "cancel": "Cancel",
+      "draft": "Draft",
+      "FULL_TIME": "Full-time",
+      "PART_TIME": "Part-time",
+      "CONTRACT": "Contract",
+      "REMOTE": "Remote"
+    },
+    "email": {
+      "title": "Send Email",
+      "modeSingle": "Single recipient",
+      "modeAll": "All subscribers",
+      "modeSelected": "Select recipients",
+      "to": "To",
+      "subject": "Subject",
+      "message": "Message",
+      "send": "Send Email",
+      "sending": "Sending...",
+      "placeholderTo": "recipient@example.com",
+      "placeholderSubject": "Email subject...",
+      "placeholderMessage": "Your message...",
+      "errorSendFailed": "Failed to send email",
+      "errorOccurred": "An error occurred while sending email",
+      "successSingle": "Email sent successfully!",
+      "successBulk": "Sent {{sent}} email(s). {{failed}} failed.",
+      "loadSubscribers": "Load subscribers",
+      "loadingSubscribers": "Loading...",
+      "noSubscribers": "No subscribers found",
+      "selectRecipients": "Select recipients",
+      "selectAll": "Select all",
+      "deselectAll": "Deselect all",
+      "selectedCount": "{{count}} selected"
+    },
+    "settings": {
+      "title": "Settings",
+      "emailService": "Email Service",
+      "fromLabel": "From",
+      "notSet": "Not set",
+      "environment": "Environment"
+    }
+  },
+  "footer": {
+    "tagline": "We don't create noise. We build architecture.",
+    "company": {
+      "title": "STRUCTURE",
+      "about": "About Us",
+      "services": "Services",
+      "projects": "Projects",
+      "careers": "Careers"
+    },
+    "services": {
+      "title": "Services",
+      "web": "Web Development",
+      "mobile": "Mobile Applications",
+      "architecture": "System Architecture",
+      "ai": "AI & ML",
+      "gameDevelopment": "Game Development"
+    },
+            "resources": {
+              "title": "Resources",
+              "blog": "Blog",
+              "support": "Support",
+              "faq": "FAQ"
+            },
+    "contact": {
+      "title": "Contact",
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address",
+      "emailValue": "iletisim@mdijital.io",
+      "phoneValue": "0224-9098196"
+    },
+    "newsletter": {
+      "title": "Newsletter",
+      "subtitle": "Stay updated with our latest news",
+      "placeholder": "Your email address",
+      "subscribe": "Subscribe"
+    },
+    "social": {
+      "title": "Social Media",
+      "follow": "Follow us"
+    },
+    "legal": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy"
+    },
+    "copyright": "© 2025 M Dijital. All rights reserved."
+  },
+  "pages": {
+    "about": {
+      "title": "About Us",
+      "description": "Learn about M Dijital. We don't create noise. We build architecture.",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "content": {
+        "heading": "We Build Architecture",
+        "paragraph1": "M Dijital is a technology architecture that focuses on the structure of the digital age, not its speed. We don't create noise; we build architecture. We are a boutique technology and strategy structure working in artificial intelligence, software, data and advanced digital systems.",
+        "paragraph2": "We don't just produce digital solutions for institutions, brands and communities; we build digital identities, governance models and sustainable system architectures. We build smart systems. We construct a human-centered future. Technology is a tool; decision belongs to humans.",
+        "paragraph3": "Data speaks. Evidence guides. The future is built and it starts today. We build intelligent, transparent and human-centered digital systems by combining artificial intelligence, blockchain, data science and creative technologies with ethics, cultural awareness, legal supremacy and public benefit principles.",
+        "vision": {
+          "title": "Our Vision",
+          "content": "To be a structure that not only adapts to the digital age, but designs, manages and sets standards for transformation. To become a strategy center that develops digital government, digital institution and digital society models at the national level and is referenced at the global level."
+        },
+        "mission": {
+          "title": "Our Mission",
+          "content": "To build intelligent, transparent and human-centered digital systems by combining artificial intelligence, blockchain, data science and creative technologies with ethics, cultural awareness, legal supremacy (jus cogens) and public benefit principles."
+        },
+        "approach": {
+          "title": "Our Approach",
+          "content": "M Dijital works with selective, in-depth and long-term projects rather than high-volume work. Every project goes through analysis, design, ethical evaluation and sustainability layers before being implemented. We believe that the digital age is not only a technological but also a philosophical, sociological and managerial transformation."
+        }
+      }
+    },
+    "services": {
+      "title": "Services",
+      "description": "Web development, mobile applications, system architecture, AI/ML, blockchain and digital transformation solutions.",
+      "web": {
+        "title": "Web Development",
+        "description": "We develop modern, scalable and secure web applications.",
+        "content": "We develop enterprise-level web applications with Next.js, React, TypeScript, Node.js and modern web technologies. We offer high-performance, SEO-friendly and scalable solutions with server-side rendering (SSR), static site generation (SSG), progressive web apps (PWA) and microservice architectures.",
+        "features": [
+          "Full-stack web applications",
+          "E-commerce platforms",
+          "Enterprise portals and dashboards",
+          "API development and integration",
+          "Performance optimization",
+          "SEO and content management"
+        ]
+      },
+      "mobile": {
+        "title": "Mobile Applications",
+        "description": "Native and cross-platform mobile applications for iOS and Android.",
+        "content": "We develop high-performance mobile applications for iOS and Android platforms with React Native, Flutter and native technologies (Swift, Kotlin). We offer App Store and Google Play optimization, push notification systems, offline-first architectures and real-time synchronization solutions.",
+        "features": [
+          "Native iOS and Android applications",
+          "Cross-platform solutions (React Native, Flutter)",
+          "Hybrid applications",
+          "Mobile API integrations",
+          "App Store optimization",
+          "Mobile security and testing"
+        ]
+      },
+      "architecture": {
+        "title": "System Architecture",
+        "description": "We design scalable, secure and sustainable system architectures.",
+        "content": "We build modern system architectures with microservice architectures, cloud-native solutions (AWS, Azure, GCP), containerization (Docker, Kubernetes), serverless architectures and DevOps practices. We offer high availability, auto-scaling, disaster recovery and continuous integration/deployment (CI/CD) solutions.",
+        "features": [
+          "Microservice architectures",
+          "Cloud migration and strategy",
+          "Container orchestration (Kubernetes)",
+          "DevOps and CI/CD pipelines",
+          "Monitoring and logging systems",
+          "Security architecture and compliance"
+        ]
+      },
+      "ai": {
+        "title": "AI & Machine Learning",
+        "description": "Transform your business processes with artificial intelligence and machine learning solutions.",
+        "content": "We develop AI integration, machine learning models, natural language processing (NLP), computer vision, chatbot and conversational AI, AI-powered automation and data analytics solutions. We offer LLM integrations, fine-tuning, RAG (Retrieval-Augmented Generation) and custom AI model development services.",
+        "features": [
+          "AI model development and training",
+          "LLM integrations (GPT, Claude, etc.)",
+          "Chatbot and conversational AI",
+          "NLP and text analysis",
+          "Computer vision solutions",
+          "AI-powered automation"
+        ]
+      },
+      "blockchain": {
+        "title": "Blockchain & Web3",
+        "description": "We develop blockchain, smart contract and Web3 solutions.",
+        "content": "We develop smart contract development, DeFi protocols, NFT marketplaces, token development, blockchain integrations and Web3 applications for Ethereum, Polygon, Binance Smart Chain and other blockchain networks. We offer secure and scalable solutions with Solidity, Web3.js, Ethers.js and modern blockchain technologies.",
+        "features": [
+          "Smart contract development and audit",
+          "DeFi protocols",
+          "NFT marketplace and minting",
+          "Token development (ERC-20, ERC-721, ERC-1155)",
+          "Blockchain integrations",
+          "Web3 dApp development"
+        ]
+      },
+      "digitalIdentity": {
+        "title": "Digital Identity & Corporate Architecture",
+        "description": "Identity systems that make institutions' presence in the digital world meaningful, consistent and sustainable.",
+        "content": "We offer corporate digital identity design, brand architecture, visual identity systems, content strategy and digital asset management services. We build a digital identity that reflects the essence of the institution and carries it into the future.",
+        "features": [
+          "Digital identity design",
+          "Brand architecture",
+          "Visual identity systems",
+          "Content strategy",
+          "Digital asset management",
+          "Corporate communication"
+        ]
+      },
+      "digitalMedia": {
+        "title": "AI-Powered Digital Media Management",
+        "description": "Highly disciplined, low-noise and absolutely results-oriented digital media management.",
+        "content": "With the CYBORG model, we offer AI-powered content generation, platform optimization, performance analysis and strategic media management services that go beyond classical social media management. A media architecture that aims not to be visible but to dominate, transforming according to the institution.",
+        "features": [
+          "AI-powered content generation",
+          "Social media management and strategy",
+          "Performance analysis and optimization",
+          "Influencer and community management",
+          "Crisis management and reputation management",
+          "Cross-platform content strategy"
+        ]
+      },
+      "design": {
+        "title": "Design Architecture",
+        "description": "Design solutions that transform form and build meaning.",
+        "content": "With the SHAPESHIFTER (TULPAR) principle, brands, institutions or ideas are freed from their molds, read their context and gain a new form appropriate to their own truth. Design here is not decoration; it is transition, transformation and meaning construction.",
+        "features": [
+          "Brand and corporate design",
+          "UI/UX design",
+          "Motion design and animation",
+          "Visual identity systems",
+          "Digital and print design",
+          "Design systems and component libraries"
+        ]
+      },
+      "governance": {
+        "title": "Digital Governance & Public Technologies",
+        "description": "Digital governance models with transparency, accountability and legal supremacy principles.",
+        "content": "With the GUARDIAN/ARCHITECT (MİMAR) character, we develop digital government, public technologies and governance models. We offer solutions focused on building, protecting and carrying systems into the future.",
+        "features": [
+          "Digital government solutions",
+          "Public technologies",
+          "Governance platforms",
+          "Transparency and accountability systems",
+          "E-government integrations",
+          "Civil society technologies"
+        ]
+      },
+      "marketing": {
+        "title": "Smart Marketing & Data-Driven Communication",
+        "description": "From data to understanding, from understanding to impact. Strategic marketing solutions.",
+        "content": "Marketing and communication processes based on data, not intuition, and strategic impact, not noise. Every decision is supported by data; every impact must be measurable and sustainable.",
+        "features": [
+          "Data-driven marketing strategy",
+          "Marketing automation",
+          "CRM integrations",
+          "A/B testing and optimization",
+          "Lead generation and nurturing",
+          "ROI analysis and reporting"
+        ]
+      },
+      "metaverse": {
+        "title": "Metaverse & NFT",
+        "description": "Designing tomorrow's economy today. Not speculation, but architecture.",
+        "content": "Metaverse, NFT and digital asset ecosystems are approached with long-term value and system logic, not speculation. We develop 3D virtual worlds, NFT collections, digital art platforms and metaverse integrations.",
+        "features": [
+          "Metaverse platform development",
+          "NFT marketplace and minting",
+          "3D virtual world design",
+          "Digital art and collectibles",
+          "Virtual event and experience design",
+          "Blockchain integrations"
+        ]
+      },
+      "gameDevelopment": {
+        "title": "Game Development",
+        "description": "Interactive experiences and entertainment across mobile, web, and desktop.",
+        "content": "We develop games and gamified applications with strong narrative design, real-time systems, and scalable backends. From casual mobile games to serious games and simulations, we deliver engaging experiences built on clear architecture and measurable engagement.",
+        "features": [
+          "Mobile and casual games",
+          "Web and browser games",
+          "Serious games and simulations",
+          "Game backend and live ops",
+          "Unity and Unreal integration",
+          "Gamification and engagement systems"
+        ]
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "description": "Our projects and success stories.",
+      "intro": "As M Dijital, we work with selective, in-depth and long-term projects. Every project goes through analysis, design, ethical evaluation and sustainability layers before being implemented.",
+      "content": "Among the projects we have completed so far are web applications, mobile applications, system architectures, AI integrations, blockchain projects and digital transformation solutions. We share our project portfolio with detailed information here.",
+      "categories": [
+        "Web Applications",
+        "Mobile Applications",
+        "System Architectures",
+        "AI & ML Projects",
+        "Blockchain & Web3",
+        "Digital Transformation"
+      ]
+    },
+    "careers": {
+      "title": "Careers",
+      "description": "Join the M Dijital family. We build architecture, we construct the future.",
+      "intro": "M Dijital is a team working in technology and strategy, working with selective and in-depth projects. We build architecture, we construct the future.",
+      "content": "The roles we are currently looking for: Full-stack Developer, Mobile Developer, AI/ML Engineer, Blockchain Developer, System Architect, UI/UX Designer, DevOps Engineer and Product Manager. Please contact us for open positions.",
+      "benefitsTitle": "Benefits",
+      "openPositions": "Open Positions",
+      "noOpenings": "No open positions at the moment. Check back later.",
+      "apply": "Apply",
+      "location": "Location",
+      "type": "Type",
+      "fullTime": "Full-time",
+      "partTime": "Part-time",
+      "contract": "Contract",
+      "remote": "Remote",
+      "applyTitle": "Apply for {{title}}",
+      "applySubtitle": "Fill in your details and upload your CV.",
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "coverLetter": "Cover letter (optional)",
+      "cvUpload": "CV (PDF or Word, max 5MB)",
+      "submit": "Submit application",
+      "submitting": "Submitting...",
+      "successMessage": "Your application has been submitted successfully.",
+      "backToCareers": "Back to careers",
+      "errorRequired": "This field is required",
+      "errorInvalidEmail": "Invalid email",
+      "errorCvRequired": "CV file is required",
+      "errorDuplicate": "You have already applied for this position.",
+      "benefits": [
+        "Competitive salary and benefits",
+        "Flexible working hours and remote work opportunity",
+        "Continuous learning and development opportunities",
+        "Working with modern technologies",
+        "Selective and in-depth projects",
+        "Ethical and sustainable work culture"
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "description": "Need help? Contact us.",
+      "intro": "M Dijital customer support team is at your service 24/7.",
+      "content": "You can contact us for technical support, project consulting, emergency response and general questions.",
+      "contactTitle": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "emailValue": "iletisim@mdijital.io",
+      "phoneValue": "0224-9098196",
+      "channels": [
+        "Email: iletisim@mdijital.io",
+        "Phone: 0224-9098196"
+      ],
+      "responseTime": "Email response time: Within 24 hours, Emergencies: Within 4 hours"
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "description": "Frequently asked questions and answers.",
+      "questions": [
+        {
+          "q": "What technologies do you use?",
+          "a": "We use Next.js, React, TypeScript, Node.js, Python, Solidity, Web3.js and modern web, mobile, blockchain and AI technologies. We customize the technology stack according to project requirements."
+        },
+        {
+          "q": "How long does a project take?",
+          "a": "It varies depending on the project scope, but small projects are completed within 1-3 months, medium-scale projects within 3-6 months, and large-scale projects within 6-12 months. We do iterative development with Agile methodology."
+        },
+        {
+          "q": "How is pricing done?",
+          "a": "We do custom pricing based on project scope, complexity and duration. We offer fixed price, hourly rate or hybrid models. Please contact us for detailed information."
+        },
+        {
+          "q": "Which industries do you work in?",
+          "a": "We carry out projects in finance, healthcare, e-commerce, education, public sector, technology startups and many other sectors. Our industry experience is extensive."
+        },
+        {
+          "q": "Do you do blockchain and Web3 projects?",
+          "a": "Yes, we develop smart contract development, DeFi protocols, NFT marketplaces and Web3 applications for Ethereum, Polygon, BSC and other blockchain networks."
+        },
+        {
+          "q": "Do you do AI integration?",
+          "a": "Yes, we offer LLM integrations (GPT, Claude), chatbot development, NLP, computer vision and custom AI model development services."
+        },
+        {
+          "q": "Do you provide support and maintenance services?",
+          "a": "Yes, we offer continuous support, maintenance, updates and optimization services after project completion. We have SLA-backed support packages."
+        },
+        {
+          "q": "How do you work on security and compliance?",
+          "a": "We work in compliance with GDPR, KVKK, ISO 27001 and other security standards. We offer security audit, penetration testing and compliance consulting services."
+        }
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "Privacy policy of M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi and protection of personal data.",
+      "lastUpdated": "Last Updated: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. General Provisions and Definitions",
+          "content": "This Privacy Policy (\"Policy\") regulates the procedures and principles regarding the processing of personal data collected, processed, stored and protected through the mdijital.io website (\"Site\") and related digital services (\"Services\") operated by M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Company\", \"Data Controller\", \"we\", \"us\") in accordance with Law No. 6698 on the Protection of Personal Data (\"KVKK\") and related legislation. This Policy applies to all natural persons (\"Data Subject\", \"User\", \"you\", \"your\") who visit the Site, use our Services or contact us. By using the Site or benefiting from our Services, you are deemed to have accepted the processing of your data in accordance with this Policy. If you do not accept these terms, please do not use the Site and do not benefit from our Services."
+        },
+        {
+          "title": "2. Data Controller and Contact Information",
+          "content": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, which has the status of Data Controller under KVKK, is responsible for the processing of your personal data. Company contact information: Email: info@mdijital.com, Phone: +90 555 123 45 67, Address: Istanbul, Turkey. You can use the above contact channels for any requests, applications and complaints regarding the processing of your personal data. Applications within the scope of KVKK can be made in writing or using registered electronic mail (KEP) address, secure electronic signature, mobile signature or the electronic mail address you have previously notified to the Company and registered in our system, in accordance with Article 13 of KVKK."
+        },
+        {
+          "title": "3. Personal Data Collected and Collection Methods",
+          "content": "The Company may collect your personal data in the following categories for the purpose of providing, developing our Services and fulfilling our legal obligations: Identity Information: Name, surname, date of birth, T.R. identity number (in case of legal obligation), passport information. Contact Information: Email address, phone number, address information, social media account information. Customer Transaction Information: Order information, invoice information, payment information, contract information, project details, request and complaint records. Transaction Security Information: IP address, log records, cookie information, device information, browser information, operating system information. Marketing Information: Cookie IDs, advertising IDs, marketing preferences, subscription information. Your personal data may be collected through forms you fill out on the Site, messages you send via email, phone calls, social media interactions, cookies and similar technologies, automatic collection methods and third-party sources."
+        },
+        {
+          "title": "4. Purposes and Legal Grounds for Processing Personal Data",
+          "content": "In accordance with Articles 5 and 6 of KVKK, your personal data is processed for the following purposes and based on legal grounds: Provision of Services: To provide our Services, fulfill contracts, manage customer relationships (Legal Ground: Establishment or performance of contract, KVKK Art.5/2-c). Fulfillment of Legal Obligations: Compliance with tax legislation, commercial law, labor law and other legislation provisions (Legal Ground: Fulfillment of legal obligation, KVKK Art.5/2-e). Legitimate Interests: Business development, marketing activities, customer satisfaction analyses, security measures (Legal Ground: Legitimate interest, KVKK Art.5/2-f). Explicit Consent: Marketing communications, cookie usage, data processing for analytical purposes (Legal Ground: Explicit consent, KVKK Art.5/2-a). Your personal data is not used or processed for purposes other than those stated above."
+        },
+        {
+          "title": "5. Transfer of Personal Data",
+          "content": "In accordance with Articles 8 and 9 of KVKK, your personal data may be transferred to third parties in Turkey and abroad in the following cases: Service Providers: Hosting service providers, cloud storage services, email service providers, payment processor service providers, analytics service providers (Google Analytics, etc.). Business Partners: Project development partners, consulting service providers, marketing agencies. Legal Obligations: Courts, prosecutors, law enforcement, tax offices and other public institutions and organizations. In case of transfer abroad, transfer is made to countries with adequate protection or with contracts providing adequate protection in accordance with Article 9 of KVKK. Transferred data is used only for the stated purposes and security measures are taken."
+        },
+        {
+          "title": "6. Retention Periods of Personal Data",
+          "content": "In accordance with Article 7 of KVKK, your personal data is retained for the period required by the processing purpose and in accordance with legal retention periods. When the processing purpose ceases to exist or the legal retention period expires, your personal data is deleted, destroyed or anonymized in accordance with Article 7 of KVKK. In general: Contract information: Contract period + 10 years (Turkish Commercial Code), Invoice and accounting records: 10 years (Tax Procedure Law), Communication records: 2 years, Marketing consents: Until cancelled, Cookie data: Variable according to cookie type (session cookies: until end of session, persistent cookies: maximum 2 years)."
+        },
+        {
+          "title": "7. Data Security and Technical-Administrative Measures",
+          "content": "In accordance with Article 12 of KVKK, the following technical and administrative measures are taken to ensure the security of your personal data: Technical Measures: SSL/TLS encryption protocols, secure data transmission, encrypted data storage, access control systems, firewalls, attack detection systems, regular security updates, backup systems, data loss prevention systems. Administrative Measures: Staff training, confidentiality agreements, access authorization procedures, regular security audits, data breach response plans, security policies and procedures. However, you acknowledge that data transmission over the internet is not 100% secure and no security system can provide absolute security. In case of data breach, notification is made to the Personal Data Protection Board within 72 hours at the latest in accordance with Article 12 of KVKK, and Data Subjects are informed as quickly as possible."
+        },
+        {
+          "title": "8. Rights of Data Subject",
+          "content": "In accordance with Article 11 of KVKK, you have the following rights regarding your personal data: To learn whether your personal data is being processed, To request information if it has been processed, To learn the purpose of processing and whether it is used in accordance with its purpose, To know the third parties to whom personal data is transferred domestically or abroad, To request correction if processed incompletely or inaccurately, To request deletion or destruction within the framework of the conditions set forth in Article 7 of KVKK, To request notification of the operations carried out pursuant to subparagraphs (d) and (e) to third parties to whom personal data has been transferred, To object to the occurrence of a result against the person himself/herself by analyzing the processed data exclusively through automated systems, To request compensation for the damage in case of loss due to unlawful processing of personal data. To exercise these rights, you can make a written application with documents identifying your identity or using registered electronic mail (KEP) address, secure electronic signature, mobile signature or the electronic mail address you have previously notified. Your applications are finalized within thirty days at the latest from the application date."
+        },
+        {
+          "title": "9. Cookies and Similar Technologies",
+          "content": "Our Site uses cookies and similar technologies (pixel tag, web beacon, etc.) to improve user experience, ensure Site functionality, for analytical purposes and marketing activities. Cookie types: Essential Cookies: Cookies necessary for the basic functions of the Site to work. The Site does not work properly without these cookies. Performance Cookies: Cookies used to analyze Site usage, measure visitor numbers and improve Site performance. Functionality Cookies: Cookies used to remember user preferences, language selection, session information and similar functions. Targeting/Marketing Cookies: Cookies used to show ads according to user interests and measure marketing campaigns. You can manage your cookie preferences through your browser settings. However, disabling some cookies may cause some Site features to not work. For detailed information, you can review our Cookie Policy."
+        },
+        {
+          "title": "10. Personal Data of Children",
+          "content": "The Site and our Services do not knowingly collect personal data from children under the age of 18. If we discover that we have collected personal data from a child under 18, we will immediately delete such data. If a parent or guardian believes that a child's personal data has been collected, please contact us."
+        },
+        {
+          "title": "11. Policy Changes",
+          "content": "The Company reserves the right to change this Privacy Policy at any time. Significant changes are announced by publishing on the Site or by notification via email. Changes take effect from the date they are published on the Site. It is recommended that you visit this page regularly to be informed about Policy changes. The last update date of the Policy is stated at the top of the page."
+        },
+        {
+          "title": "12. Complaint and Objection Rights",
+          "content": "If you believe that your rights regarding the processing of your personal data have been violated, you can first apply to the Company. If your application is not answered within sufficient time or if you are not satisfied with the answer, you can file a complaint with the Personal Data Protection Board in accordance with Article 14 of KVKK. Personal Data Protection Board address: Nasuh Akar Mahallesi 1407. Sokak No:4 06520 Balgat/Çankaya/Ankara, Phone: +90 312 216 50 00, Email: kvkk@kvkk.gov.tr, Web: www.kvkk.gov.tr."
+        },
+        {
+          "title": "13. Contact and Application",
+          "content": "You can use the following contact channels for questions about this Privacy Policy, applications to exercise your rights regarding your personal data or complaints: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, Email: info@mdijital.com, Phone: +90 555 123 45 67, Address: Istanbul, Turkey. Applications can be made in writing with documents identifying your identity or using registered electronic mail (KEP) address, secure electronic signature, mobile signature or the electronic mail address you have previously notified. Applications are finalized within thirty days at the latest from the application date and the result is notified to you in writing or electronically."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "description": "Terms of use of M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi website.",
+      "lastUpdated": "Last Updated: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. General Provisions and Definitions",
+          "content": "These Terms of Use (\"Terms\") regulate the legal framework for the use of the mdijital.io website (\"Site\") and related digital services (\"Services\") operated by M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Company\", \"we\", \"us\"). All natural and legal persons (\"User\", \"you\", \"your\") who visit, use the Site or benefit from our Services are subject to these Terms. By using the Site or benefiting from our Services, you are deemed to have read, understood and accepted these Terms. If you do not accept these Terms, please do not use the Site and do not benefit from our Services. These Terms are subject to the laws of the Republic of Turkey and are interpreted within the framework of Turkish law, including the Turkish Code of Obligations, Turkish Commercial Code, Law on Intellectual and Artistic Works and related legislation."
+        },
+        {
+          "title": "2. Scope and Provision of Services",
+          "content": "The Company provides web development, mobile application development, system architecture design, artificial intelligence integration, blockchain solutions, digital transformation consulting and related technology services (\"Services\"). The scope, features, technical conditions, delivery times, pricing and payment terms of the Services are determined by service contracts, offer letters, work orders or similar documents (\"Contract\") to be separately prepared for each project. Information on the Site is for general promotional purposes and does not constitute a binding offer. The exact service scope, pricing and conditions are determined by written Contract. The Company does not guarantee that the Services will be continuous, uninterrupted, error-free or secure. Services are provided \"as is\" and \"as available\"."
+        },
+        {
+          "title": "3. User Obligations and Prohibitions",
+          "content": "The User undertakes to use the Site and Services only for legal purposes and in accordance with these Terms. The following activities are strictly prohibited: Using the Site or Services for illegal, fraudulent, deceptive or harmful purposes, Attempting to bypass Site security measures, Installing or spreading harmful software (malware, virus, trojan, etc.), Attempting to reverse engineer the Site's source code, algorithms or technological infrastructure, Overloading the Site with automated systems (bot, crawler, scraper) or performing DDoS attacks, Violating others' intellectual property rights, personality rights, privacy rights or other rights, Providing false, misleading or incorrect information, Sending spam, phishing or similar harmful content, Attempting to disrupt or block Site operation. In case of violation of these prohibitions, the Company may immediately terminate the User's access to the Site, reserves its legal rights and may initiate necessary legal proceedings."
+        },
+        {
+          "title": "4. Intellectual Property Rights",
+          "content": "All content on the Site (texts, images, logos, designs, software, codes, databases, audio recordings, video recordings and other materials) is the intellectual property of the Company or third parties licensed by the Company and is protected by the Law on Intellectual and Artistic Works, Decree Law on the Protection of Trademarks, Law on the Protection of Patent Rights and related legislation. Site content is protected by copyright, trademark, patent, trade secret and other intellectual property rights. It is strictly prohibited to copy, reproduce, distribute, publish, modify, create derivative works, use for commercial purposes or use in other ways the Site content without the written permission of the Company. The \"M Dijital\", \"MDIJITAL\" trademarks and logos on the Site are registered or applied for registration trademarks of the Company. Unauthorized use of these trademarks constitutes a violation of the Decree Law on the Protection of Trademarks and is subject to legal sanctions."
+        },
+        {
+          "title": "5. Disclaimer and Limitations",
+          "content": "The Company does not guarantee that the Site and Services will be uninterrupted, error-free, secure, timely or suitable for a particular purpose. The Site and Services are provided \"as is\" and \"as available\". The Company cannot be held liable for direct, indirect, incidental, special, punitive or consequential damages (data loss, profit loss, business loss, reputation loss, etc.) arising from the use or inability to use the Site and Services. The Company is not responsible for links to third-party websites, services or content. The accuracy, reliability, legality or suitability of third-party content is outside the Company's control. The Company is not responsible for transactions made by the User using the Site or Services, content sent or relationships with third parties. The Company cannot be held responsible for service interruptions caused by natural disasters, war, terrorism, strikes, government interventions, internet outages, cyber attacks or other events outside its control."
+        },
+        {
+          "title": "6. User Content and License",
+          "content": "The User is responsible for all content sent, uploaded or shared to the Site (text, image, video, file, etc.) (\"User Content\"). The User guarantees that the User Content complies with laws, these Terms and third-party rights. By sending User Content to the Site, the User grants the Company an irrevocable, non-exclusive, transferable, worldwide, royalty-free license, including the right to sublicense, to use, reproduce, distribute, publish, modify and create derivative works of such content on the Site and Services. The Company reserves the right to delete, modify or block access to User Content without prior notice if it deems it contrary to laws or these Terms."
+        },
+        {
+          "title": "7. Third-Party Services and Links",
+          "content": "The Site may contain links to third-party websites, services or content. These links are provided only for the User's convenience and do not mean that the Company approves, controls or is responsible for these third-party sites, services or content. The Company is not responsible for the content, privacy practices, service quality, security or legality of third-party websites. When using third-party services, the relevant third party's terms of use and privacy policies apply. The Company cannot be held liable for damages arising from the use of third-party services."
+        },
+        {
+          "title": "8. Payment and Invoicing",
+          "content": "The pricing of Services is determined in the Contract to be separately prepared for each project. Prices are stated in Turkish Lira (TRY) and include VAT. Payment terms are specified in the Contract. In general: Advance payments are made before service commencement, Installment payments are determined according to project phases, Payments are made by bank transfer, credit card or other accepted payment methods. In case of non-payment or delay, the Company reserves the right to suspend or terminate services. Invoicing is done in accordance with Turkish Tax Legislation. Invoice information is prepared according to the information specified in the Contract."
+        },
+        {
+          "title": "9. Privacy and Data Protection",
+          "content": "The processing of your personal data is explained in detail in our Privacy Policy. By using the Site, you are deemed to have accepted our Privacy Policy. Your personal data is processed and protected in accordance with Law No. 6698 on the Protection of Personal Data (KVKK) and related legislation. The Company takes technical and administrative measures to ensure the security of your personal data. However, you acknowledge that data transmission over the internet is not 100% secure."
+        },
+        {
+          "title": "10. Termination",
+          "content": "The Company may immediately terminate the User's access to the Site without prior notice if the User violates these Terms, acts contrary to laws or threatens the security of the Site. The User may stop using the Site at any time. However, ongoing service contracts are subject to separate Contract provisions. Upon termination, the User's content on the Site may be deleted and cannot be restored. Ongoing payments and obligations remain valid after the termination date."
+        },
+        {
+          "title": "11. Changes to Terms",
+          "content": "The Company reserves the right to change these Terms of Use at any time, with or without prior notice. Changes take effect from the date they are published on the Site. Significant changes are announced on the Site or notified via email. It is recommended that you visit this page regularly to be informed about changes. Continuing to use the Site or Services after changes means you accept the changes. If you do not accept the changes, you should stop using the Site."
+        },
+        {
+          "title": "12. Applicable Law and Competent Court",
+          "content": "These Terms of Use are subject to the laws of the Republic of Turkey and are interpreted within the framework of Turkish law. All disputes arising from or related to these Terms are first attempted to be resolved through amicable means. If amicable resolution cannot be achieved, Istanbul Courts and Execution Offices have exclusive jurisdiction. If the laws of the Republic of Turkey invalidate any provision of these Terms, that provision is deemed invalid and other provisions remain in effect."
+        },
+        {
+          "title": "13. Severability and Entire Agreement",
+          "content": "If any provision of these Terms becomes legally invalid, void or unenforceable, that provision is deemed invalid and other provisions remain fully in effect. These Terms constitute the entire agreement between the Company and the User regarding the use of the Site and Services and replace all previous oral or written agreements. Failure to enforce any provision of these Terms does not mean that provision is waived."
+        },
+        {
+          "title": "14. Contact and Notifications",
+          "content": "You can use the following contact channels for questions, complaints or notifications about these Terms of Use: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, Email: info@mdijital.com, Phone: +90 555 123 45 67, Address: Istanbul, Turkey. Notifications from the Company are made by publishing on the Site, via email or sent to the address notified by the User. Notifications are deemed valid from the date they are sent."
+        }
+      ]
+    },
+    "cookies": {
+      "title": "Cookie Policy",
+      "description": "Cookie usage and your preferences of M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi.",
+      "lastUpdated": "Last Updated: 2025",
+      "companyName": "M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi",
+      "sections": [
+        {
+          "title": "1. General Provisions and Definitions",
+          "content": "This Cookie Policy (\"Policy\") contains information regarding cookies and similar technologies used on the mdijital.io website (\"Site\") operated by M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi (\"Company\", \"Data Controller\") in accordance with Law No. 6698 on the Protection of Personal Data (\"KVKK\") and related legislation. This Policy applies to all users who visit the Site. Cookie: Small text files saved on your device (computer, tablet, smartphone) when you visit websites. Cookies ensure websites function properly, improve user experience and perform certain functions. Web Beacon/Pixel Tag: Small visual files that are visually invisible, used on web pages or in emails. Local Storage: Technology used to store data in the browser. Session Storage: Technology used to store data during the session."
+        },
+        {
+          "title": "2. Cookie Types and Usage Purposes",
+          "content": "The following categories of cookies are used on our Site: Essential Cookies (Strictly Necessary Cookies): Cookies that are absolutely necessary for the basic functions of the Site to work. The Site does not work properly without these cookies. Example: Session management cookies, security cookies, language preference cookies. These cookies can be used based on the legal ground of \"legitimate interest\" (KVKK Art.5/2-f) without explicit consent, as they are necessary for the technical functionality of the Site. Performance and Analytics Cookies: Cookies used to analyze Site usage, measure visitor numbers, improve Site performance and understand user behavior. Example: Google Analytics cookies, heatmap cookies, A/B test cookies. These cookies are used based on the legal ground of \"explicit consent\" (KVKK Art.5/2-a). Functionality Cookies: Cookies used to remember user preferences, language selection, session information, form data and similar functions. Example: Language preference cookies, theme preference cookies, user settings cookies. These cookies are used based on the legal ground of \"legitimate interest\" (KVKK Art.5/2-f) or \"explicit consent\" (KVKK Art.5/2-a). Targeting/Marketing Cookies: Cookies used to show ads according to user interests, measure marketing campaigns and provide personalized content. Example: Advertising platform cookies, retargeting cookies, social media integration cookies. These cookies are used based on the legal ground of \"explicit consent\" (KVKK Art.5/2-a) and cannot be used without explicit consent."
+        },
+        {
+          "title": "3. Detailed List of Cookies Used",
+          "content": "Cookies used on our Site and their details: Session Cookies: Used for session management, deleted when the session ends. Persistent Cookies: Used to remember user preferences, stored for a maximum of 2 years. Google Analytics Cookies: _ga (2 years), _gid (24 hours), _gat (1 minute) - Used to analyze Site traffic. Language Preference Cookies: next-intl-locale - Used to remember the User's language preference, stored for 1 year. Security Cookies: CSRF token cookies - Used for security, deleted when the session ends. Cookie details and retention periods may change in line with technology updates and legal requirements."
+        },
+        {
+          "title": "4. Third-Party Cookies and Services",
+          "content": "The following third-party service cookies may be used on our Site: Google Analytics: Web analytics service, subject to Google's privacy policy (https://policies.google.com/privacy). Google reCAPTCHA: Bot protection service, subject to Google's privacy policy. Social Media Plugins: Integration cookies of social media platforms such as Facebook, Twitter, LinkedIn, Instagram, subject to the privacy policies of the relevant platforms. The use of third-party cookies is subject to the privacy policies and cookie policies of the relevant third parties. The Company is not responsible for the use or content of third-party cookies. To manage third-party cookies, you can review the relevant third party's privacy policies and cookie settings."
+        },
+        {
+          "title": "5. Management of Your Cookie Preferences",
+          "content": "In accordance with Article 5 of KVKK, you have the right to manage your cookie preferences. You can manage your cookie preferences through the following methods: Browser Settings: You can manage cookies through your browser's settings menu, block certain cookies or delete all cookies. However, blocking essential cookies may cause some Site features to not work. Cookie Management Panel: You can manage your cookie preferences through the cookie management panel on the Site (to be added soon). Mobile Device Settings: You can manage your cookie preferences through your mobile device settings. Changing your cookie preferences does not immediately delete existing cookies. To delete existing cookies, you need to clear cookies from your browser settings. Continuing to use the Site after changing your cookie preferences means you accept your new preferences."
+        },
+        {
+          "title": "6. Legal Basis for Cookies and Explicit Consent",
+          "content": "In accordance with Article 5 of KVKK, legal grounds for cookie usage: Essential Cookies: Legitimate interest (KVKK Art.5/2-f) - Necessary for Site's technical functionality. Performance/Analytics Cookies: Explicit consent (KVKK Art.5/2-a) - To improve user experience. Functionality Cookies: Legitimate interest (KVKK Art.5/2-f) or Explicit consent (KVKK Art.5/2-a) - To remember user preferences. Targeting/Marketing Cookies: Explicit consent (KVKK Art.5/2-a) - Required for marketing purposes. For cookies requiring explicit consent, a cookie consent banner is shown when you first visit the Site. You can withdraw your consent at any time. Withdrawing your consent does not affect the validity of transactions made before the withdrawal."
+        },
+        {
+          "title": "7. Cookie Retention Periods",
+          "content": "Cookie retention periods vary according to cookie type: Session Cookies: Automatically deleted when the session ends. Persistent Cookies: Stored for a maximum of 2 years, automatically deleted when the period expires. Google Analytics Cookies: _ga: 2 years, _gid: 24 hours, _gat: 1 minute. Language Preference Cookies: 1 year. Cookie retention periods may be updated in case of technology updates, legal requirements or changes in processing purpose. Cookies are automatically removed when the retention period expires or when deleted by the User."
+        },
+        {
+          "title": "8. Cookie Security",
+          "content": "Cookies are protected with security measures: HTTPS Protocol: All cookie transmission is done over encrypted HTTPS protocol. HttpOnly Flag: Sensitive cookies are protected against JavaScript access. Secure Flag: Sensitive cookies are transmitted only over encrypted connections. SameSite Feature: Provides protection against CSRF attacks. Cookies do not contain personally identifiable information or are stored in encrypted format. However, you acknowledge that cookies are not 100% secure and may be captured by malicious software."
+        },
+        {
+          "title": "9. Cookie Policy Changes",
+          "content": "The Company reserves the right to change this Cookie Policy at any time. Significant changes are announced by publishing on the Site or by notification via email. Changes take effect from the date they are published on the Site. It is recommended that you visit this page regularly to be informed about Policy changes. The last update date of the Policy is stated at the top of the page."
+        },
+        {
+          "title": "10. Contact and Application",
+          "content": "You can use the following contact channels for questions about this Cookie Policy, requests regarding your cookie preferences or complaints: M Global Yazılım Teknoloji Sanayi ve Ticaret Limited Şirketi, Email: info@mdijital.com, Phone: +90 555 123 45 67, Address: Istanbul, Turkey. Applications within the scope of KVKK can be made in writing with documents identifying your identity or using registered electronic mail (KEP) address, secure electronic signature, mobile signature or the electronic mail address you have previously notified, in accordance with Article 13 of KVKK. Applications are finalized within thirty days at the latest from the application date."
+        }
+      ]
+    }
+  },
+  "errors": {
+    "404": {
+      "title": "Page Not Found",
+      "description": "The page you are looking for does not exist.",
+      "message": "We don't create noise. We build architecture. The page you're looking for doesn't exist in this architecture.",
+      "backHome": "Go Home"
+    },
+    "500": {
+      "title": "Server Error",
+      "description": "An error occurred.",
+      "message": "There's a temporary issue with our system. Please try again later.",
+      "backHome": "Go Home"
+    },
+    "generic": {
+      "title": "An Error Occurred",
+      "description": "An unexpected error occurred.",
+      "message": "Please try again later or contact us.",
+      "backHome": "Go Home"
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Our thoughts, ideas, and experiences",
+    "loading": "Loading...",
+    "noPosts": "No blog posts yet.",
+    "backToBlog": "Back to Blog",
+    "comments": {
+      "title": "Comments",
+      "placeholder": "Write your comment...",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "loading": "Loading comments...",
+      "noComments": "No comments yet. Be the first to comment!",
+      "loginRequired": "You need to login to comment.",
+      "login": "Login"
+    },
+    "admin": {
+      "newTitle": "New Blog Post",
+      "editTitle": "Edit Blog Post",
+      "listTitle": "Blog Posts",
+      "newPost": "New Post",
+      "title": "Title",
+      "excerpt": "Excerpt",
+      "content": "Content",
+      "featuredImage": "Featured Image",
+      "publish": "Publish",
+      "save": "Save",
+      "saving": "Saving...",
+      "cancel": "Cancel",
+      "settings": "Settings",
+      "saveError": "Failed to save",
+      "loading": "Loading...",
+      "placeholderTitleTR": "Optional if EN is set",
+      "placeholderTitleEN": "Optional if TR is set",
+      "placeholderContentTR": "Write your Turkish content...",
+      "placeholderContentEN": "Write your English content...",
+      "errorUploadFailed": "Upload failed",
+      "errorTitleRequired": "At least one language must have a title",
+      "errorContentRequired": "At least one language must have content"
+    }
+  }
+}
+

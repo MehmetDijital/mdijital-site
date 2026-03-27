@@ -1,0 +1,48 @@
+@keyframes fogDrift {
+  0%, 100% {
+    opacity: 0.4;
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    opacity: 0.55;
+    transform: translate(2%, -1%) scale(1.02);
+  }
+  66% {
+    opacity: 0.45;
+    transform: translate(-1%, 2%) scale(0.98);
+  }
+}
+
+@keyframes fogDriftSlow {
+  0%, 100% {
+    opacity: 0.25;
+    transform: translate(0, 0);
+  }
+  50% {
+    opacity: 0.4;
+    transform: translate(-3%, 1%);
+  }
+}
+
+.fogLayer {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 80% 50% at 50% 50%, rgba(120, 120, 140, 0.12) 0%, transparent 70%),
+    radial-gradient(ellipse 60% 80% at 80% 20%, rgba(100, 100, 120, 0.08) 0%, transparent 50%),
+    radial-gradient(ellipse 70% 60% at 20% 80%, rgba(80, 90, 110, 0.1) 0%, transparent 55%);
+  filter: blur(40px);
+  animation: fogDrift 18s ease-in-out infinite;
+}
+
+.fogLayerSlow {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 90% 60% at 30% 40%, rgba(140, 140, 160, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 90% at 70% 70%, rgba(90, 100, 130, 0.06) 0%, transparent 65%);
+  filter: blur(60px);
+  animation: fogDriftSlow 25s ease-in-out infinite;
+}

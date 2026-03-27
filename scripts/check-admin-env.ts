@@ -1,0 +1,14 @@
+const email = process.env.ADMIN_EMAIL || 'admin@mdijital.io';
+const hasPassword = Boolean(process.env.ADMIN_INITIAL_PASSWORD);
+console.log('Admin email:', email);
+console.log('ADMIN_INITIAL_PASSWORD set:', hasPassword ? 'yes' : 'no');
+console.log('');
+console.log('Admin dashboard URL (production): https://admin.mdijital.io');
+console.log('Open that URL -> login -> dashboard (no /admin path on production).');
+console.log('');
+console.log('On server: check admin user and test password:');
+console.log('  docker exec <APP_CONTAINER> npx tsx scripts/server-admin-check.ts');
+console.log('  docker exec <APP_CONTAINER> npx tsx scripts/server-admin-check.ts \'V9tP3rLz7Fs2KpN4hGd6Bcffkd0\'');
+console.log('');
+console.log('Reset password on server (single quotes around password):');
+console.log("  docker exec <APP_CONTAINER> npx tsx scripts/reset-admin-password.ts", email, "'<NEW_PASSWORD>'");

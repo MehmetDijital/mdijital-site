@@ -1,0 +1,41 @@
+services:
+  postgres:
+    container_name: mdijital-db
+    environment:
+      POSTGRES_PASSWORD_FILE: /run/secrets/postgres_password
+    secrets:
+      - postgres_password
+    ports: []
+    networks:
+      - internal
+
+  app:
+    container_name: mdijital-app
+    environment:
+      DATABASE_URL: postgresql://${POSTGRES_USER:-mdijital}:${POSTGRES_PASSWORD}@postgres:5432/${POSTGRES_DB:-mdijital}
+      NEXTAUTH_SECRET_FILE: /run/secrets/nextauth_secret
+    secrets:
+      - nextauth_secret
+    ports:
+      - "127.0.0.1:3000:3000"
+    networks:
+      - internal
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+  redis:
+    container_name: mdijital-redis
+
+secrets:
+  postgres_password:
+    external: true
+  nextauth_secret:
+    external: true
+
+networks:
+  internal:
+    driver: bridge
+

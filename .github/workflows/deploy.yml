@@ -1,0 +1,264 @@
+name: Deploy to Production Server
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          ssh-keyscan -H ${{ secrets.HOST_DNS }} >> ~/.ssh/known_hosts
+
+      - name: Deploy to server
+        env:
+          SSH_KEY: ~/.ssh/deploy_key
+          HOST: ${{ secrets.USERNAME }}@${{ secrets.HOST_DNS }}
+          TARGET_DIR: ${{ secrets.TARGET_DIR || '$HOME/mdijital-prod' }}
+          REPO_URL: ${{ secrets.REPO_URL || 'https://github.com/PohjaLab/mdijital-prod.git' }}
+        run: |
+          ssh -i $SSH_KEY -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -o ServerAliveCountMax=3 -o ConnectTimeout=30 -o TCPKeepAlive=yes $HOST "TARGET_DIR='$TARGET_DIR' REPO_URL='$REPO_URL' bash -s" << 'DEPLOY_EOF'
+            set -e
+            
+            if [ -z "$TARGET_DIR" ] || [ "$TARGET_DIR" = "home" ] || [ "$TARGET_DIR" = "~" ]; then
+              TARGET_DIR="$HOME/mdijital-prod"
+              echo "⚠️  TARGET_DIR was invalid or missing, using default: $TARGET_DIR"
+            fi
+            case "$TARGET_DIR" in
+              /*) ;;
+              *) TARGET_DIR="$HOME/mdijital-prod"
+                 echo "⚠️  TARGET_DIR must be absolute path, using default: $TARGET_DIR" ;;
+            esac
+            REPO_URL="${REPO_URL:-https://github.com/PohjaLab/mdijital-prod.git}"
+            
+            # Ensure swap exists on server (one-shot; avoids OOM on small instances)
+            if ! swapon --show 2>/dev/null | grep -q .; then
+              echo "Setting up swap (2G) on server..."
+              if [ ! -f /swapfile ]; then
+                sudo dd if=/dev/zero of=/swapfile bs=1M count=2048 status=none 2>/dev/null || true
+                sudo chmod 600 /swapfile 2>/dev/null || true
+                sudo mkswap /swapfile 2>/dev/null || true
+              fi
+              sudo swapon /swapfile 2>/dev/null || true
+              if ! grep -q "^/swapfile " /etc/fstab 2>/dev/null; then
+                echo "/swapfile none swap sw 0 0" | sudo tee -a /etc/fstab >/dev/null 2>/dev/null || true
+              fi
+              swapon --show 2>/dev/null || true
+            else
+              echo "Swap already active."
+            fi
+            
+            echo "=========================================="
+            echo "Starting deployment..."
+            echo "Target directory: $TARGET_DIR"
+            echo "=========================================="
+            
+            if [ ! -d "$TARGET_DIR" ]; then
+              echo "Directory $TARGET_DIR does not exist. Cloning repository..."
+              cd "$HOME"
+              git clone "$REPO_URL" mdijital-prod || {
+                echo "Error: Failed to clone. Repo must be public or use deploy key on server."
+                exit 1
+              }
+              cd "$TARGET_DIR"
+              echo "Repository cloned successfully!"
+            else
+              echo "Directory exists. Navigating to $TARGET_DIR..."
+              cd "$TARGET_DIR" || { echo "Error: Cannot access $TARGET_DIR"; exit 1; }
+              
+              if [ -d ".git" ]; then
+                echo "Git repository detected. Updating remote URL and pulling latest changes..."
+                git remote set-url origin "$REPO_URL"
+                git config --local credential.helper "" 2>/dev/null || true
+                echo "Fetching latest changes..."
+                GIT_TERMINAL_PROMPT=0 GIT_ASKPASS= git fetch origin || {
+                  echo "Warning: git fetch failed, trying alternative method..."
+                  git remote remove origin 2>/dev/null || true
+                  git remote add origin "$REPO_URL"
+                  GIT_TERMINAL_PROMPT=0 GIT_ASKPASS= git fetch origin
+                }
+                echo "Resetting to origin/main..."
+                git reset --hard origin/main || {
+                  echo "Error: Failed to reset to origin/main"
+                  exit 1
+                }
+              else
+                echo "Warning: Directory exists but is not a git repository."
+                echo "Removing existing directory and cloning fresh..."
+                cd "$HOME"
+                rm -rf mdijital-prod
+                git clone "$REPO_URL" mdijital-prod || { echo "Error: Failed to clone"; exit 1; }
+                cd "$TARGET_DIR"
+                echo "Repository cloned successfully!"
+              fi
+            fi
+            
+            echo "Checking .env file..."
+            if [ ! -f .env ]; then
+              echo "Warning: .env file not found!"
+              if [ -f .env.example ]; then
+                echo "Copying .env.example to .env..."
+                cp .env.example .env
+                echo "⚠️  IMPORTANT: Please configure .env file with your production values!"
+                echo "⚠️  You can edit it manually on the server or set environment variables"
+                echo "⚠️  Deployment will continue but application may not work without proper .env configuration"
+              else
+                echo "Error: .env.example file not found. Cannot create .env automatically."
+                echo "Please create .env file manually on the server before deployment."
+                exit 1
+              fi
+            fi
+            
+            echo "Stopping existing containers (if any)..."
+            COMPOSE_FILES="-f docker-compose.yml"
+            [ -f docker-compose.small.yml ] && COMPOSE_FILES="$COMPOSE_FILES -f docker-compose.small.yml"
+            docker compose $COMPOSE_FILES down || true
+            
+            echo "Ensuring NODE_ENV is production..."
+            export NODE_ENV=production
+            
+            COMPOSE_FILES="-f docker-compose.yml"
+            if [ -f docker-compose.small.yml ]; then
+              COMPOSE_FILES="$COMPOSE_FILES -f docker-compose.small.yml"
+              echo "Using t2.small-optimized resource limits (docker-compose.small.yml)"
+            fi
+            
+            echo "Building and starting containers (production mode)..."
+            if [ -f docker-compose.yml ]; then
+              docker compose $COMPOSE_FILES build --no-cache --progress=plain app 2>&1 || {
+                echo "Build failed. Last 50 lines:"
+                docker compose $COMPOSE_FILES build --no-cache --progress=plain app 2>&1 | tail -50
+                exit 1
+              }
+              docker compose $COMPOSE_FILES up -d
+            else
+              echo "Error: docker-compose.yml not found in $TARGET_DIR"
+              exit 1
+            fi
+            
+            echo "Verifying NODE_ENV in container..."
+            docker compose $COMPOSE_FILES exec -T app printenv NODE_ENV || echo "Warning: NODE_ENV not set in container"
+            
+            echo "Waiting for services to be healthy..."
+            sleep 15
+            
+            echo "Checking PostgreSQL is ready..."
+            MAX_RETRIES=30
+            RETRY_COUNT=0
+            until docker compose $COMPOSE_FILES exec -T postgres pg_isready -U \${POSTGRES_USER:-mdijital_prod} 2>/dev/null; do
+              RETRY_COUNT=$((RETRY_COUNT + 1))
+              if [ $RETRY_COUNT -ge $MAX_RETRIES ]; then
+                echo "Error: PostgreSQL failed to become ready"
+                docker compose $COMPOSE_FILES logs postgres
+                exit 1
+              fi
+              echo "Waiting for PostgreSQL... ($RETRY_COUNT/$MAX_RETRIES)"
+              sleep 2
+            done
+            echo "PostgreSQL is ready!"
+            
+            echo "Checking Redis is ready..."
+            if ! docker compose $COMPOSE_FILES exec -T redis redis-cli ${REDIS_PASSWORD:+-a "$REDIS_PASSWORD"} ping 2>/dev/null | grep -q PONG; then
+              echo "Warning: Redis health check failed, but continuing..."
+            else
+              echo "Redis is ready!"
+            fi
+            
+            echo "Verifying Prisma client is generated..."
+            docker compose $COMPOSE_FILES exec -T app npx prisma@5.19.1 generate || {
+              echo "Error: Prisma generate failed"
+              docker compose $COMPOSE_FILES logs app --tail=50
+              exit 1
+            }
+            
+            echo "Running database migrations (preserving existing data)..."
+            if docker compose $COMPOSE_FILES exec -T app npx prisma@5.19.1 migrate deploy 2>/dev/null; then
+              echo "✅ Migrations applied (if any)"
+            else
+              echo "⚠️  migrate deploy skipped (no migrations or failed)"
+            fi
+            echo "Syncing schema with db push..."
+            docker compose $COMPOSE_FILES exec -T app npx prisma@5.19.1 db push --skip-generate --accept-data-loss=false || {
+              echo "Error: db push failed"
+              docker compose $COMPOSE_FILES logs app --tail=50
+              exit 1
+            }
+            echo "✅ Schema synced"
+            echo "Ensuring admin user (create or sync password from .env)..."
+            docker compose $COMPOSE_FILES exec -T app npx tsx scripts/init-admin.ts || {
+              echo "Warning: init-admin failed (check ADMIN_EMAIL and ADMIN_INITIAL_PASSWORD in .env)"
+            }
+            echo "✅ Admin ready"
+            
+            echo "Waiting for application to be ready..."
+            sleep 5
+            
+            echo "Checking application health..."
+            MAX_HEALTH_RETRIES=10
+            HEALTH_RETRY=0
+            until curl -f http://localhost:3000/api/health 2>/dev/null; do
+              HEALTH_RETRY=$((HEALTH_RETRY + 1))
+              if [ $HEALTH_RETRY -ge $MAX_HEALTH_RETRIES ]; then
+                echo "Error: Application health check failed"
+                docker compose $COMPOSE_FILES logs app --tail=50
+                exit 1
+              fi
+              echo "Waiting for application... ($HEALTH_RETRY/$MAX_HEALTH_RETRIES)"
+              sleep 3
+            done
+            echo "Application is healthy!"
+            
+            echo "Checking Docker container health status..."
+            echo "Container Status:"
+            docker compose $COMPOSE_FILES ps
+            
+            echo "Detailed Health Check Status:"
+            docker compose $COMPOSE_FILES ps --format "table {{.Name}}\t{{.Status}}\t{{.Health}}" || docker compose $COMPOSE_FILES ps
+            
+            echo "Checking Nginx configuration..."
+            if [ -f /etc/nginx/sites-available/mdijital.io ]; then
+              echo "✅ Nginx config file found: /etc/nginx/sites-available/mdijital.io"
+              
+              echo "Cleaning up old symlinks..."
+              sudo rm -f /etc/nginx/sites-enabled/mdijital.conf
+              sudo rm -f /etc/nginx/sites-enabled/default
+              
+              if sudo nginx -t 2>/dev/null; then
+                echo "✅ Nginx configuration is valid"
+                if sudo systemctl is-active --quiet nginx; then
+                  echo "✅ Nginx is running"
+                else
+                  echo "⚠️  Warning: Nginx is not running (manual intervention may be needed)"
+                fi
+              else
+                echo "⚠️  Warning: Nginx configuration test failed (manual intervention may be needed)"
+                echo "⚠️  Run 'sudo nginx -t' on server to see detailed error messages"
+              fi
+            else
+              echo "⚠️  Warning: Nginx config file not found at expected location"
+              echo "⚠️  Expected: /etc/nginx/sites-available/mdijital.io"
+              echo "⚠️  Nginx configuration will not be automatically updated - please configure manually"
+              echo "⚠️  You can copy from: $TARGET_DIR/docs/nginx-production.conf"
+            fi
+            
+            echo "=========================================="
+            echo "Deployment completed successfully!"
+            echo "=========================================="
+            echo "Final Container Status:"
+            docker compose $COMPOSE_FILES ps
+          DEPLOY_EOF
+
+      - name: Cleanup
+        if: always()
+        run: |
+          rm -f ~/.ssh/deploy_key
